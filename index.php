@@ -24,11 +24,11 @@
 
 <body>
     <!-- header section start  -->
-    <header class="w-4/5 mx-auto my-14">
+    <header class="w-4/5 mx-auto my-10 md:my-14">
         <!-- branding section  -->
         <section class="branding flex flex-col lg:flex-row items-center gap-3">
             <!-- logo -->
-            <div class="brand w-[280px]">
+            <div class="brand xl:w-[280px]">
                 <a href="">
                     <figure class="brand-logo w-[150px] h-[150px] flex items-center">
                         <img loading="lazy" src="./assets/makfare_logo_new.png" alt="makfare cold storage" class="w-full">
@@ -37,9 +37,9 @@
             </div>
 
             <!-- brand information section  -->
-            <div class="brand-information flex-1 grid grid-cols-12 gap-6">
+            <div class="brand-information flex-1 grid grid-col-1 xl:grid-cols-12 gap-6 xl:gap-0 ">
                 <!-- social media section  -->
-                <ul class="social-media col-span-2 flex justify-end items-center gap-2.5">
+                <ul class="social-media xl:col-span-2 flex justify-evenly xl:justify-end items-center gap-2.5 xl:pr-5 order-last xl:order-first">
                     <li class="border border-[#1e1e1e14] bg-[#1e1e1e14] px-1.5 py-1.5 rounded-full flex items-center">
                         <a class="flex items-center" title="Facebook" href="https://www.facebook.com/PMKNGO" target="_blank">
                             <i class="fa-brands fa-facebook text-[#551A8B] text-lg"></i>
@@ -63,7 +63,7 @@
                 </ul>
 
                 <!-- info-box section:phone  -->
-                <div class="info-box col-span-3 flex gap-4 items-center">
+                <div class="info-box xl:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
                     <figure class="flex justify-center items-center w-6">
                         <img loading="lazy" src="./assets/phone_icon.png" alt="phone icon" class="w-full object-cover">
                     </figure>
@@ -76,7 +76,7 @@
                 </div>
 
                 <!-- info-box section:mail  -->
-                <div class="info-box col-span-4 flex gap-4 items-center border-l border-[#551A8B] pl-3">
+                <div class="info-box xl:col-span-4 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
                     <figure class="flex justify-center items-center w-6">
                         <img loading="lazy" src="./assets/mail_icon.png" alt="mail icon" class="w-full object-cover">
                     </figure>
@@ -89,7 +89,7 @@
                 </div>
 
                 <!-- info-box section:location  -->
-                <div class="info-box col-span-3 flex gap-4 items-center border-l border-[#551A8B] pl-3">
+                <div class="info-box xl:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
                     <figure class="flex justify-center items-center w-6">
                         <img loading="lazy" src="./assets/phone_icon.png" alt="phone icon" class="w-full object-cover">
                     </figure>
