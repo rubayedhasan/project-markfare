@@ -26,7 +26,7 @@
     <!-- header section start  -->
     <header class="w-4/5 mx-auto my-10 md:my-14">
         <!-- branding section  -->
-        <section class="branding flex flex-col lg:flex-row items-center gap-3">
+        <section class="branding flex flex-col xl:flex-row items-center gap-3">
             <!-- logo -->
             <div class="brand xl:w-[280px]">
                 <a href="">
@@ -37,9 +37,9 @@
             </div>
 
             <!-- brand information section  -->
-            <div class="brand-information flex-1 grid grid-col-1 xl:grid-cols-12 gap-6 xl:gap-0 ">
+            <div class="brand-information flex-1 grid grid-col-1 md:grid-cols-12 gap-6 lg:gap-3 ">
                 <!-- social media section  -->
-                <ul class="social-media xl:col-span-2 flex justify-evenly xl:justify-end items-center gap-2.5 xl:pr-5 order-last xl:order-first">
+                <ul class="social-media md:col-span-6 lg:col-span-3 flex justify-evenly lg:justify-center xl:justify-end items-center gap-2.5 xl:pr-5 order-last lg:order-first">
                     <li class="border border-[#1e1e1e14] bg-[#1e1e1e14] px-1.5 py-1.5 rounded-full flex items-center">
                         <a class="flex items-center" title="Facebook" href="https://www.facebook.com/PMKNGO" target="_blank">
                             <i class="fa-brands fa-facebook text-[#551A8B] text-lg"></i>
@@ -63,7 +63,7 @@
                 </ul>
 
                 <!-- info-box section:phone  -->
-                <div class="info-box xl:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
+                <div class="info-box md:col-span-6 lg:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
                     <figure class="flex justify-center items-center w-6">
                         <img loading="lazy" src="./assets/phone_icon.png" alt="phone icon" class="w-full object-cover">
                     </figure>
@@ -76,7 +76,7 @@
                 </div>
 
                 <!-- info-box section:mail  -->
-                <div class="info-box xl:col-span-4 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
+                <div class="info-box md:col-span-6 lg:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
                     <figure class="flex justify-center items-center w-6">
                         <img loading="lazy" src="./assets/mail_icon.png" alt="mail icon" class="w-full object-cover">
                     </figure>
@@ -89,7 +89,7 @@
                 </div>
 
                 <!-- info-box section:location  -->
-                <div class="info-box xl:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
+                <div class="info-box md:col-span-6 lg:col-span-3 flex gap-4 items-center border-l-2 border-[#551A8B] pl-3.5 h-14">
                     <figure class="flex justify-center items-center w-6">
                         <img loading="lazy" src="./assets/phone_icon.png" alt="phone icon" class="w-full object-cover">
                     </figure>
