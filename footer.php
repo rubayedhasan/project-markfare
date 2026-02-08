@@ -22,37 +22,94 @@
 
 <body>
     <!-- section:: footer  -->
-    <footer class="footer sm:footer-horizontal bg-[#054F731A] backdrop-blur-md border border-white/10 p-10">
-        <aside>
-            <figure>
-                <img src="./assets/makfare_logo_without_bg.png" alt="makfare logo">
-            </figure>
-            <p>
-                ACME Industries Ltd.
-                <br />
-                Providing reliable tech since 1992
-            </p>
-        </aside>
-        <nav>
-            <h6 class="footer-title">Services</h6>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-            <h6 class="footer-title">Company</h6>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <h6 class="footer-title">Legal</h6>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-        </nav>
+    <footer class="my-10 md:my-14">
+        <div class="bg-[#054F731A] backdrop-blur-md border border-white/10 py-10">
+            <div class="footer sm:footer-horizontal  grid-cols-1 md:grid-cols-4 w-4/5 mx-auto">
+                <div class="md:col-span-2">
+                    <div class="brand-logo">
+                        <a href="./index.php">
+                            <figure class="brand-logo w-[150px] flex items-center">
+                                <img loading="lazy" src="./assets/makfare_logo_without_bg.png" alt="makfare cold storage" class="w-full h-auto">
+                            </figure>
+                        </a>
+                    </div>
+                    <p class="text-sm font-medium italic text-opacity-60 leading-relaxed md:w-4/5 text-justify">
+                        Makfare provides advanced cold storage infrastructure that protects harvest quality and supports sustainable post-harvest management.
+                    </p>
+                </div>
+                <nav class="md:col-span-1">
+                    <h6 class="text-[#1e1e1e] font-semibold italic relative after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-10 after:bg-[#551a8b] mb-4">Explore</h6>
+                    <a class="link link-hover text-sm font-medium" href="./index.php">
+                        <span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </span>
+                        Home
+                    </a>
+                    <a class="link link-hover  text-sm font-medium" href="./services.php">
+                        <span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </span>
+                        Our Work
+                    </a>
+                    <a class="link link-hover  text-sm font-medium" href="./tissue_culture.php">
+                        <span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </span>
+                        Tissue Culture
+                    </a>
+                    <a class="link link-hover  text-sm font-medium" href="./blog.php">
+                        <span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </span>
+                        Blog
+                    </a>
+                    <a class="link link-hover  text-sm font-medium" href="./about.php">
+                        <span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </span>
+                        About
+                    </a>
+                    <a class="link link-hover  text-sm font-medium" href="./contact.php">
+                        <span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </span>
+                        Contact
+                    </a>
+                </nav>
+                <div class="md:col-span-1">
+                    <h6 class="text-[#1e1e1e] font-semibold italic relative after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-10 after:bg-[#551a8b] mb-4">Contact</h6>
+                    <div class="space-y-4">
+                        <p class="inline-flex items-center gap-2">
+                            <span>
+                                <i class="fa-solid fa-phone text-[#551A8B] text-base"></i>
+                            </span>
+                            <span>+8801335-101449</span>
+                        </p>
+                        <p class="inline-flex items-center gap-2">
+                            <span>
+                                <i class="fa-solid fa-at text-[#551A8B] text-base"></i>
+                            </span>
+                            <span>makfarecoldstorageltd@gmail.com</span>
+                        </p>
+                        <p class="inline-flex items-center gap-2">
+                            <span>
+                                <i class="fa-solid fa-location-dot text-[#551A8B] text-base"></i>
+                            </span>
+                            <span>
+                                mostofapur, chamrul
+                                <!-- <br> -->
+                                Dupchachiya, Bagura
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- copyright text -->
+        <div class="bg-[#1e1e1e]/60 backdrop-blur-md border-t border-white/10">
+            <p class="text-center py-4 text-xs font-medium text-white/55">Copyright © 2026, Designed & Developed by MIS & ICT Department, Palli Mongal Karmosuchi (PMK)</p>
+        </div>
     </footer>
 </body>
 
