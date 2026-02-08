@@ -25,7 +25,10 @@
     <footer class="mt-10 md:mt-14">
         <div class="bg-[#054F731A] backdrop-blur-md border border-white/10 py-10">
             <div class="footer sm:footer-horizontal w-4/5 mx-auto  grid-cols-1 md:grid-cols-4">
-                <div class="md:col-span-2">
+
+                <!-- section::short brand description(about markfare) -->
+                <div class="md:col-span-2 short-brand-description">
+                    <!-- markfare logo  -->
                     <div class="brand-logo">
                         <a href="./index.php">
                             <figure class="brand-logo w-[150px] flex items-center">
@@ -33,11 +36,13 @@
                             </figure>
                         </a>
                     </div>
-                    <p class="text-sm font-medium italic text-opacity-60 leading-relaxed md:w-4/5 text-justify">
+
+                    <!--short  description about makfare -->
+                    <p class="short-description text-sm font-medium italic text-opacity-60 leading-relaxed md:w-4/5 text-justify">
                         Makfare provides advanced cold storage infrastructure that protects harvest quality and supports sustainable post-harvest management.
                     </p>
 
-                    <!-- social media  -->
+                    <!--sub-section:: social media  -->
                     <div class="mt-3 space-y-2">
                         <p class="italic font-light text-xs"><small>Follow Makfare:</small>
                         </p>
@@ -65,7 +70,9 @@
                         </ul>
                     </div>
                 </div>
-                <nav class="md:col-span-1">
+
+                <!-- section:: quick links  -->
+                <nav class="md:col-span-1 quick-links">
                     <h6 class="text-[#1e1e1e] font-semibold italic relative after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-10 after:bg-[#551a8b] mb-4">Explore</h6>
                     <a class="link link-hover text-sm font-medium" href="./index.php">
                         <span>
@@ -104,7 +111,9 @@
                         Contact
                     </a>
                 </nav>
-                <div class="md:col-span-1">
+
+                <!-- section:: short-contact-info -->
+                <div class="md:col-span-1 short-contact-info">
                     <h6 class="text-[#1e1e1e] font-semibold italic relative after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-10 after:bg-[#551a8b] mb-4">Contact</h6>
                     <div class="space-y-4">
                         <p class="inline-flex items-center gap-2">
@@ -136,7 +145,7 @@
 
         <!-- copyright text -->
         <div class="bg-[#1e1e1e]/60 backdrop-blur-md border-t border-white/10">
-            <p class="w-4/5 mx-auto text-center py-5 text-xs leading-relaxed font-medium text-white/55">Copyright © 2026, Designed & Developed by MIS & ICT Department, Palli Mongal Karmosuchi (PMK)</p>
+            <p class="text-copyright w-4/5 mx-auto text-center py-5 text-xs leading-relaxed font-medium text-white/55">Copyright © 2026, Designed & Developed by MIS & ICT Department, Palli Mongal Karmosuchi (PMK)</p>
         </div>
     </footer>
 </body>
