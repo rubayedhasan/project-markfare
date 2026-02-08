@@ -30,6 +30,9 @@
         <p>Up Coming Page</p>
     </main>
 
+    <!-- section:: footer  -->
+    <?php include("./footer.php") ?>
+
 </body>
 
 </html>

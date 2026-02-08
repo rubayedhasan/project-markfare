@@ -28,6 +28,8 @@
         <h1>Tissue Culture Page</h1>
     </main>
 
+    <!-- section:: footer  -->
+    <?php include("./footer.php") ?>
 </body>
 
 </html>

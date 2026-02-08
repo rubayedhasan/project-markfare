@@ -27,6 +27,9 @@
         <h1>About us Page</h1>
     </main>
 
+    <!-- section:: footer  -->
+    <?php include("./footer.php") ?>
+
 </body>
 
 </html>
