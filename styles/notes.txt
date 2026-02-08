@@ -1,0 +1,24 @@
+##button style 
+class="font-inter font-medium text-sm text-white
+         px-5 py-2.5 rounded-lg
+         bg-gradient-to-br from-[#551a8b] to-[#054f73]
+         border border-white/10
+         shadow-[0_4px_14px_rgba(85,26,139,0.35)]
+         transition-all duration-200 ease-out
+         hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)]
+         hover:from-[#6a25a6] hover:to-[#0b6a99]
+         hover:-translate-y-[1px]
+         active:translate-y-0
+         active:shadow-[0_3px_10px_rgba(85,26,139,0.25)]
+         focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+
+###outlet button style 
+font-inter font-medium text-sm
+         px-5 py-2.5 rounded-lg
+         text-[#551a8b]
+         border border-[#551a8b]/60
+         transition-all duration-200
+         hover:text-white
+         hover:bg-gradient-to-br hover:from-[#551a8b] hover:to-[#054f73]
+         hover:shadow-[0_4px_14px_rgba(85,26,139,0.35)]
+         focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40
