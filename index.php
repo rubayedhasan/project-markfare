@@ -9,9 +9,8 @@
     <!-- fav icon link  -->
     <link rel="shortcut icon" href="./assets/makfare_logo_new.png" type="image/x-icon">
 
-    <!-- daisyui cdn link  -->
+    <!-- daisyui & tailwindcss cdn link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <!-- tailwind css cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- font awesome link  -->
@@ -24,8 +23,8 @@
 
 <body>
     <!-- header section start  -->
-    <header class="w-4/5 mx-auto my-10 md:my-14">
-        <!-- branding section  -->
+    <header class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
+        <!-- section::branding  -->
         <section class="branding flex flex-col xl:flex-row items-center gap-3">
             <!-- logo -->
             <div class="brand xl:w-[280px]">
@@ -40,22 +39,22 @@
             <div class="brand-information flex-1 grid grid-col-1 md:grid-cols-12 gap-6 lg:gap-3 ">
                 <!-- social media section  -->
                 <ul class="social-media md:col-span-6 lg:col-span-3 flex justify-evenly lg:justify-center xl:justify-end items-center gap-2.5 xl:pr-5 order-last lg:order-first">
-                    <li class="border border-[#1e1e1e14] bg-[#1e1e1e14] px-1.5 py-1.5 rounded-full flex items-center">
+                    <li class="border border-[#054F731A] bg-[#054F731A] px-1.5 py-1.5 rounded-full flex items-center">
                         <a class="flex items-center" title="Facebook" href="https://www.facebook.com/PMKNGO" target="_blank">
                             <i class="fa-brands fa-facebook text-[#551A8B] text-lg"></i>
                         </a>
                     </li>
-                    <li class="border border-[#1e1e1e14] bg-[#1e1e1e14] px-1.5 py-1.5 rounded-full flex items-center">
+                    <li class="border border-[#054F731A] bg-[#054F731A] px-1.5 py-1.5 rounded-full flex items-center">
                         <a class="flex items-center" title="twitter" href="https://x.com/" target="_blank">
                             <i class="fa-brands fa-x-twitter text-[#551A8B] text-lg"></i>
                         </a>
                     </li>
-                    <li class="border border-[#1e1e1e14] bg-[#1e1e1e14] px-1.5 py-1.5 rounded-full flex items-center">
+                    <li class="border border-[#054F731A] bg-[#054F731A] px-1.5 py-1.5 rounded-full flex items-center">
                         <a class="flex items-center" title="Instagram" href="https://www.instagram.com/?hl=en" target="_blank">
                             <i class="fa-brands fa-instagram text-[#551A8B] text-lg"></i>
                         </a>
                     </li>
-                    <li class="border border-[#1e1e1e14] bg-[#1e1e1e14] px-1.5 py-1.5 rounded-full flex items-center">
+                    <li class="border border-[#054F731A] bg-[#054F731A] px-1.5 py-1.5 rounded-full flex items-center">
                         <a class="flex items-center" title="Linkedin" href="https://www.linkedin.com/home" target="_blank">
                             <i class="fa-brands fa-linkedin text-[#551A8B] text-lg"></i>
                         </a>
@@ -102,6 +101,68 @@
                 </div>
             </div>
         </section>
+
+        <!-- section::navbar  -->
+        <nav class="navbar bg-[#054F731A] shadow-sm mt-8 xl:mt-0">
+            <div class="navbar-start lg:hidden">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul
+                        tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li>
+                            <a class="font-bold hover:font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Home</a>
+                        </li>
+                        <li>
+                            <a class="font-bold hover:font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Our Work</a>
+                        </li>
+                        <li>
+                            <a class="font-bold hover:font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Tissue Culture</a>
+                        </li>
+                        <li>
+                            <a class="font-bold hover:font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Blog</a>
+                        </li>
+                        <li>
+                            <a class="font-bold hover:font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">About</a>
+                        </li>
+                        <li>
+                            <a class="font-bold hover:font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-start hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li>
+                        <a class="font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Home</a>
+                    </li>
+                    <li>
+                        <a class="font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Our Work</a>
+                    </li>
+                    <li>
+                        <a class="font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Tissue Culture</a>
+                    </li>
+                    <li>
+                        <a class="font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Blog</a>
+                    </li>
+                    <li>
+                        <a class="font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">About</a>
+                    </li>
+                    <li>
+                        <a class="font-extrabold hover:text-[#551A8B] hover:bg-transparent" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn">Button</a>
+            </div>
+        </nav>
+
+
     </header>
 </body>
 
