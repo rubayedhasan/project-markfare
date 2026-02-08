@@ -4,6 +4,11 @@
 body {
   color: #1e1e1e;
   font-family: "Manrope", sans-serif;
+  overflow-y: scroll;
+}
+
+button {
+  cursor: pointer;
 }
 
 .font-inter {

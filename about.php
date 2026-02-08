@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Makfare Project</title>
-
+    <title>MakFare About Page</title>
     <!-- fav icon link  -->
     <link rel="shortcut icon" href="./assets/makfare_logo_new.png" type="image/x-icon">
 
@@ -18,16 +17,14 @@
 
     <!-- stylesheet link  -->
     <link rel="stylesheet" href="./styles/main.css">
-
 </head>
 
 <body>
-    <!-- section: header  -->
+    <!-- section:: header  -->
     <?php include("./header.php") ?>
 
-    <!-- section:: main  -->
     <main class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
-        <p>Up Coming Page</p>
+        <h1>About us Page</h1>
     </main>
 
 </body>
