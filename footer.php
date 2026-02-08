@@ -22,9 +22,9 @@
 
 <body>
     <!-- section:: footer  -->
-    <footer class="my-10 md:my-14">
+    <footer class="mt-10 md:mt-14">
         <div class="bg-[#054F731A] backdrop-blur-md border border-white/10 py-10">
-            <div class="footer sm:footer-horizontal  grid-cols-1 md:grid-cols-4 w-4/5 mx-auto">
+            <div class="footer sm:footer-horizontal w-4/5 mx-auto  grid-cols-1 md:grid-cols-4">
                 <div class="md:col-span-2">
                     <div class="brand-logo">
                         <a href="./index.php">
@@ -89,13 +89,13 @@
                             <span>
                                 <i class="fa-solid fa-at text-[#551A8B] text-base"></i>
                             </span>
-                            <span>makfarecoldstorageltd@gmail.com</span>
+                            <span class="break-all">makfarecoldstorageltd@gmail.com</span>
                         </p>
                         <p class="inline-flex items-center gap-2">
                             <span>
                                 <i class="fa-solid fa-location-dot text-[#551A8B] text-base"></i>
                             </span>
-                            <span>
+                            <span class="break-all">
                                 mostofapur, chamrul
                                 <!-- <br> -->
                                 Dupchachiya, Bagura
@@ -108,7 +108,7 @@
 
         <!-- copyright text -->
         <div class="bg-[#1e1e1e]/60 backdrop-blur-md border-t border-white/10">
-            <p class="text-center py-4 text-xs font-medium text-white/55">Copyright © 2026, Designed & Developed by MIS & ICT Department, Palli Mongal Karmosuchi (PMK)</p>
+            <p class="w-4/5 mx-auto text-center py-5 text-xs leading-relaxed font-medium text-white/55">Copyright © 2026, Designed & Developed by MIS & ICT Department, Palli Mongal Karmosuchi (PMK)</p>
         </div>
     </footer>
 </body>
