@@ -36,6 +36,34 @@
                     <p class="text-sm font-medium italic text-opacity-60 leading-relaxed md:w-4/5 text-justify">
                         Makfare provides advanced cold storage infrastructure that protects harvest quality and supports sustainable post-harvest management.
                     </p>
+
+                    <!-- social media  -->
+                    <div class="mt-3 space-y-2">
+                        <p class="italic font-light text-xs"><small>Follow Makfare:</small>
+                        </p>
+                        <ul class="social-media flex items-center gap-4">
+                            <li class="flex items-center cursor-pointer">
+                                <a class="flex items-center" title="Facebook" href="https://www.facebook.com/PMKNGO" target="_blank">
+                                    <i class="fa-brands fa-facebook text-[#1e1e1e] text-lg"></i>
+                                </a>
+                            </li>
+                            <li class="flex items-center cursor-pointer">
+                                <a class="flex items-center" title="twitter" href="https://x.com/" target="_blank">
+                                    <i class="fa-brands fa-x-twitter text-[#1e1e1e] text-lg"></i>
+                                </a>
+                            </li>
+                            <li class="flex items-center cursor-pointer">
+                                <a class="flex items-center" title="Instagram" href="https://www.instagram.com/?hl=en" target="_blank">
+                                    <i class="fa-brands fa-instagram text-[#1e1e1e] text-lg"></i>
+                                </a>
+                            </li>
+                            <li class="flex items-center cursor-pointer">
+                                <a class="flex items-center" title="Linkedin" href="https://www.linkedin.com/home" target="_blank">
+                                    <i class="fa-brands fa-linkedin text-[#1e1e1e] text-lg"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <nav class="md:col-span-1">
                     <h6 class="text-[#1e1e1e] font-semibold italic relative after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-10 after:bg-[#551a8b] mb-4">Explore</h6>
