@@ -22,3 +22,10 @@ font-inter font-medium text-sm
          hover:bg-gradient-to-br hover:from-[#551a8b] hover:to-[#054f73]
          hover:shadow-[0_4px_14px_rgba(85,26,139,0.35)]
          focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40
+
+
+         text-shadow-[2px_0_0_#054F73,-2px_0_0_#054F73,0_2px_0_#054F73,0_-2px_0_#054F73,1px_1px_0_#054F73,-1px_-1px_0_#054F73,1px_-1px_0_#054F73,-1px_1px_0_#054F73]
+
+         mb-4 text-4xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title
+
+         text-base leading-relaxed text-white/90 slider-text
