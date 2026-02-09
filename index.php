@@ -171,7 +171,7 @@
                 <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
 
                 <!-- section description  -->
-                <p class="section-description text-sm md:text-base font-medium text-secondary leading-relaxed md:w-3/4 mx-auto">
+                <p class="section-description text-sm md:text-base font-medium text-secondary leading-relaxed text-justify md:text-center lg:w-3/4 mx-auto">
                     Makfare delivers reliable, technology-driven cold storage and agricultural services designed
                     to protect crop quality, preserve seed viability, and reduce post-harvest losses. From potato
                     and seed storage to processing and tissue culture, we support sustainable farming and
@@ -182,7 +182,7 @@
             <!-- services cards container  -->
             <div class="service-cards-container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8">
                 <!-- cards item  -->
-                <div class="card bg-base-100 w-96 shadow-sm">
+                <!-- <div class="card bg-base-100 w-96 shadow-sm">
                     <figure class="px-10 pt-10">
                         <img
                             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -196,7 +196,7 @@
                             <button class="btn btn-primary">Buy Now</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
 
