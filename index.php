@@ -41,9 +41,9 @@
                         <div class="hero-content text-neutral-content text-center">
                             <div class="max-w-2xl">
                                 <!-- slider title  -->
-                                <h1 class="mb-4 text-4xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Cold Makfare – Trusted Cold Storage Solutions</h1>
+                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Makfare – Trusted Cold Storage Solutions</h1>
                                 <!-- slider description text  -->
-                                <p class="text-base leading-relaxed text-white/90 slider-text">
+                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
                                     Cold Makfare delivers reliable, technology driven cold storage solutions designed to preserve potatoes, seed potatoes, and paddy seeds while maintaining freshness, quality, and safety throughout long term storage.
                                 </p>
                                 <!-- button container section  -->
@@ -70,9 +70,9 @@
                         <div class="hero-content text-neutral-content text-center">
                             <div class="max-w-2xl">
                                 <!-- slider title  -->
-                                <h1 class="mb-4 text-4xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Advanced Cold Storage for Potatoes</h1>
+                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Advanced Cold Storage for Potatoes</h1>
                                 <!-- slider description text  -->
-                                <p class="text-base leading-relaxed text-white/90 slider-text">
+                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
                                     Makfare provides temperature controlled cold storage facilities that protect potatoes from spoilage, maintain natural freshness, and reduce post harvest losses, ensuring consistent quality from farm to market.
                                 </p>
                                 <!-- button container section  -->
@@ -99,9 +99,9 @@
                         <div class="hero-content text-neutral-content text-center">
                             <div class="max-w-2xl">
                                 <!-- slider title  -->
-                                <h1 class="mb-4 text-4xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Reliable Storage for Seed Potatoes & Paddy Seeds</h1>
+                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Reliable Storage for Seed Potatoes & Paddy Seeds</h1>
                                 <!-- slider description text  -->
-                                <p class="text-base leading-relaxed text-white/90 slider-text">
+                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
                                     Our specialized cold storage systems maintain ideal conditions for seed potatoes and paddy seeds, preserving germination strength, moisture balance, and seed vitality for dependable agricultural performance.
                                 </p>
                                 <!-- button container section  -->
@@ -128,9 +128,9 @@
                         <div class="hero-content text-neutral-content text-center">
                             <div class="max-w-2xl">
                                 <!-- slider title  -->
-                                <h1 class="mb-4 text-4xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Tissue Culture for High-Quality Planting Material</h1>
+                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Tissue Culture for High-Quality Planting Material</h1>
                                 <!-- slider description text  -->
-                                <p class="text-base leading-relaxed text-white/90 slider-text">
+                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
                                     Makfare’s tissue culture solutions produce disease free, uniform, and high yielding planting material, enabling faster multiplication and supporting sustainable, modern agriculture for potatoes and other crops.
                                 </p>
                                 <!-- button container section  -->
