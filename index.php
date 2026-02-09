@@ -26,9 +26,9 @@
     <?php include("./header.php") ?>
 
     <!-- section:: main  -->
-    <main class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
+    <main class="w-4/5 mx-auto mb-10 md:mb-14 rounded-md">
         <!-- section:: banner  -->
-        <section id="banner" class="relative">
+        <section id="banner" class="relative mt-10 md:mt-14">
 
             <!-- slider container  -->
             <div class="carousel slider w-full h-[600px] rounded-lg">
@@ -156,6 +156,50 @@
                 <a href="#item4" class="btn btn-xs">4</a>
             </div>
         </section>
+
+        <!-- section:: service(our work ) -->
+        <section id="service" class="mt-10 md:mt-14">
+            <!-- section description container  -->
+            <div class="max-w-5xl mx-auto text-center space-y-4">
+                <!-- section label  -->
+                <span class="section-label inline-block text-sm font-semibold tracking-wider text-[#551a8b] uppercase">Our Services</span>
+
+                <!-- section title  -->
+                <h3 class="text-2xl md:text-3xl font-bold">Comprehensive Agricultural & Cold Storage Solutions</h3>
+
+                <!-- divider -->
+                <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
+
+                <!-- section description  -->
+                <p class="section-description text-sm md:text-base font-medium text-secondary leading-relaxed md:w-3/4 mx-auto">
+                    Makfare delivers reliable, technology-driven cold storage and agricultural services designed
+                    to protect crop quality, preserve seed viability, and reduce post-harvest losses. From potato
+                    and seed storage to processing and tissue culture, we support sustainable farming and
+                    long-term agricultural value.
+                </p>
+            </div>
+
+            <!-- services cards container  -->
+            <div class="service-cards-container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8">
+                <!-- cards item  -->
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure class="px-10 pt-10">
+                        <img
+                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                            alt="Shoes"
+                            class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Card Title</h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- section:: footer  -->
