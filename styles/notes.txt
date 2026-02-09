@@ -29,3 +29,39 @@ font-inter font-medium text-sm
          mb-4 text-4xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title
 
          text-base leading-relaxed text-white/90 slider-text
+
+         Our Services
+🥔 Potato Cold Storage
+
+Secure preservation for maximum yield
+We provide controlled cold storage solutions for potatoes, maintaining optimal temperature and humidity to reduce spoilage, weight loss, and post-harvest damage.
+
+🌱 Potato Seed Storage
+
+Protecting seed vitality and performance
+Our specialized seed storage ensures high germination rates and strong crop performance by preserving seed quality throughout the storage period.
+
+🌾 Paddy & Rice Storage
+
+Safe storage from harvest to market
+Makfare offers reliable cold and dry storage facilities for paddy and rice, protecting grains from pests, moisture, and quality degradation.
+
+🌾 Paddy Seed Preservation
+
+Ensuring strong starts for future harvests
+We store paddy seeds under precise conditions to maintain purity, viability, and consistency for the next cultivation cycle.
+
+❄️ Preserve & Store Solutions
+
+Advanced cold chain management
+Our preservation systems are designed to handle agricultural produce with care, extending shelf life while maintaining nutritional and commercial value.
+
+🌿 Agricultural Growth Support
+
+From storage to sustainable production
+Makfare supports agricultural growth by integrating storage, preservation, and handling practices that reduce loss and improve overall productivity.
+
+🧪 Processing & Tissue Culture
+
+Innovation-driven plant development
+We offer modern processing and tissue culture solutions to support disease-free planting material, rapid multiplication, and advanced agricultural research.

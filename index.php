@@ -180,23 +180,36 @@
             </div>
 
             <!-- services cards container  -->
-            <div class="service-cards-container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-8">
-                <!-- cards item  -->
-                <!-- <div class="card bg-base-100 w-96 shadow-sm">
-                    <figure class="px-10 pt-10">
-                        <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="Shoes"
-                            class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                        <h2 class="card-title">Card Title</h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div class="card-actions">
-                            <button class="btn btn-primary">Buy Now</button>
+            <div class="service-cards-container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-8">
+                <!-- service card -->
+                <div class="group card bg-white border border-gray-200 rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+                    <!-- icon -->
+                    <figure class="pt-8">
+                        <div class="w-20 h-20 flex items-center justify-center rounded-full bg-gradient-to-br from-[#551a8b]/10 to-[#054f73]/10 group-hover:from-[#551a8b]/20 group-hover:to-[#054f73]/20 transition-all duration-300">
+                            <img
+                                src="./assets/icons/potato.png"
+                                alt="Potato Cold Storage"
+                                class="w-10 h-10 object-contain" />
                         </div>
+                    </figure>
+                    <!-- card body -->
+                    <div class="card-body text-center px-6 pb-8 space-y-2">
+                        <!-- title -->
+                        <h2 class="text-lg font-semibold text-[#1e1e1e]">
+                            Potato Cold Storage
+                        </h2>
+                        <!-- subtitle -->
+                        <h5 class="text-sm font-medium text-[#551a8b]">
+                            Secure preservation for maximum yield
+                        </h5>
+                        <!-- description -->
+                        <p class="text-sm leading-relaxed text-[#1e1e1e]/90">
+                            We provide controlled cold storage solutions for potatoes, maintaining
+                            optimal temperature and humidity to minimize spoilage, reduce weight loss,
+                            and protect post-harvest quality.
+                        </p>
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
 
