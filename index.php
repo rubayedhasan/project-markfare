@@ -195,9 +195,9 @@
                     <!-- card body -->
                     <div class="card-body text-center px-6 pb-8 space-y-2">
                         <!-- title -->
-                        <h2 class="text-lg font-semibold">
+                        <h4 class="text-lg font-semibold">
                             Potato Cold Storage
-                        </h2>
+                        </h4>
                         <!-- subtitle -->
                         <h5 class="text-sm font-medium text-[#551a8b]">
                             Secure preservation for maximum yield
@@ -225,9 +225,9 @@
                     <!-- card body -->
                     <div class="card-body text-center px-6 pb-8 space-y-2">
                         <!-- title -->
-                        <h2 class="text-lg font-semibold">
+                        <h4 class="text-lg font-semibold">
                             Potato Seed Storage
-                        </h2>
+                        </h4>
                         <!-- subtitle -->
                         <h5 class="text-sm font-medium text-[#551a8b]">
                             Protecting seed vitality and performance
@@ -253,9 +253,9 @@
                     <!-- card body -->
                     <div class="card-body text-center px-6 pb-8 space-y-2">
                         <!-- title -->
-                        <h2 class="text-lg font-semibold">
+                        <h4 class="text-lg font-semibold">
                             Paddy Seed Preservation
-                        </h2>
+                        </h4>
                         <!-- subtitle -->
                         <h5 class="text-sm font-medium text-[#551a8b]">
                             Ensuring strong starts for future harvests
@@ -281,9 +281,9 @@
                     <!-- card body -->
                     <div class="card-body text-center px-6 pb-8 space-y-2">
                         <!-- title -->
-                        <h2 class="text-lg font-semibold">
+                        <h4 class="text-lg font-semibold">
                             Agricultural Growth Support
-                        </h2>
+                        </h4>
                         <!-- subtitle -->
                         <h5 class="text-sm font-medium text-[#551a8b]">
                             From storage to sustainable production
@@ -309,9 +309,9 @@
                     <!-- card body -->
                     <div class="card-body text-center px-6 pb-8 space-y-2">
                         <!-- title -->
-                        <h2 class="text-lg font-semibold">
+                        <h4 class="text-lg font-semibold">
                             Preserve & Store Solutions
-                        </h2>
+                        </h4>
                         <!-- subtitle -->
                         <h5 class="text-sm font-medium text-[#551a8b]">
                             Advanced cold chain management
@@ -337,9 +337,9 @@
                     <!-- card body -->
                     <div class="card-body text-center px-6 pb-8 space-y-2">
                         <!-- title -->
-                        <h2 class="text-lg font-semibold">
+                        <h4 class="text-lg font-semibold">
                             Processing & Tissue Culture
-                        </h2>
+                        </h4>
                         <!-- subtitle -->
                         <h5 class="text-sm font-medium text-[#551a8b]">
                             Innovation-driven plant development
@@ -353,6 +353,25 @@
             </div>
         </section>
 
+        <!-- section:: gallery  -->
+        <section id="gallery" class="mt-10 md:mt-14">
+            <!-- section description container  -->
+            <div class="max-w-5xl mx-auto text-center space-y-4">
+                <!-- section label  -->
+                <span class="section-label inline-block text-sm font-semibold tracking-wider text-[#551a8b] uppercase">Inside Makfare</span>
+
+                <!-- section title  -->
+                <h3 class="text-2xl md:text-3xl font-bold">Our Facilities, Fields & Freshness in Action</h3>
+
+                <!-- divider -->
+                <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
+
+                <!-- section description  -->
+                <p class="section-description text-sm md:text-base font-medium text-opacity-90 leading-relaxed text-justify md:text-center lg:w-3/4 mx-auto">
+                    A visual journey through Makfare’s cold storage facilities, agricultural goods, seed preservation, and processing operations—showcasing our commitment to quality, freshness, and sustainable agricultural solutions.
+                </p>
+            </div>
+        </section>
     </main>
 
     <!-- section:: footer  -->
