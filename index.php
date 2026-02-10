@@ -371,6 +371,15 @@
                     A visual journey through Makfare’s cold storage facilities, agricultural goods, seed preservation, and processing operations—showcasing our commitment to quality, freshness, and sustainable agricultural solutions.
                 </p>
             </div>
+
+            <!-- gallery  -->
+            <div>
+                <div role="tablist" class="tabs tabs-border">
+                    <a role="tab" class="tab">Tab 1</a>
+                    <a role="tab" class="tab tab-active">Tab 2</a>
+                    <a role="tab" class="tab">Tab 3</a>
+                </div>
+            </div>
         </section>
     </main>
 
