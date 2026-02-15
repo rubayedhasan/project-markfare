@@ -573,6 +573,22 @@
                 </div>
             </div>
         </section>
+
+        <!-- section:: FAQ  -->
+        <section id="faq" class="mt-10 md:mt-14">
+            <!-- section description container  -->
+            <div class="max-w-5xl mx-auto text-center space-y-4">
+                <!-- section label  -->
+                <span class="section-label inline-block text-sm font-semibold tracking-wider text-[#551a8b] uppercase">Your Questions, Our Expertise</span>
+
+                <!-- section title  -->
+                <h3 class="text-2xl md:text-3xl font-bold">Everything You Need to Know About Makfare</h3>
+
+                <!-- divider -->
+                <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
+            </div>
+
+        </section>
     </main>
 
     <!-- section:: footer  -->
