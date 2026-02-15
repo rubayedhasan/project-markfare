@@ -376,7 +376,7 @@
             <div class="tabs tabs-border border-[#551a8b] justify-center mt-6">
                 <!-- Cold Storage Tab Gallery  -->
                 <input type="radio" name="my_tabs_2" class="tab text-sm font-semibold text-opacity-90" aria-label="Cold Storage" checked />
-                <div class="tab-content bg-base-100 p-10">
+                <div class="tab-content bg-base-100 pt-8 lg:pt-10">
                     <!-- Photos Grid  -->
                     <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
@@ -486,7 +486,7 @@
 
                 <!-- Tissue Culture Tab Gallery  -->
                 <input type="radio" name="my_tabs_2" class="tab text-sm font-semibold text-opacity-90" aria-label="Tissue Culture" />
-                <div class="tab-content bg-base-100 p-10">
+                <div class="tab-content bg-base-100 pt-8 lg:pt-10">
                     <!-- Photos Grid  -->
                     <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
