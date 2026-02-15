@@ -589,46 +589,46 @@
             </div>
 
             <!-- sub-section:: faq-container -->
-            <div class="faq-container grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+            <div class="faq-container grid grid-cols-1 lg:grid-cols-2 gap-10 mt-8">
                 <!-- faq-accordion:: faq question & answer  -->
-                <div class="faq-accordion">
+                <div class="faq-accordion space-y-5">
                     <!-- 1st: accordion  -->
-                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <div class="collapse collapse-plus bg-white border border-[#551a8b]/20 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title font-semibold">Who is Makfare?</div>
-                        <div class="collapse-content text-sm">
+                        <div class="collapse-title text-base md:text-lg font-semibold">Who is Makfare?</div>
+                        <div class="collapse-content text-sm text-[#1e1e1e]/80 leading-relaxed text-justify space-y-3">
                             <p>Makfare is a modern agricultural cold storage and seed processing project focused on the preservation, storage, and quality enhancement of potatoes, potato seeds, paddy, paddy seeds, and other agricultural commodities.</p>
                             <p>We aim to support farmers, seed distributors, and agribusinesses by providing reliable, scientific, and hygienic storage and processing solutions.</p>
                         </div>
                     </div>
 
                     <!-- 2nd: accordion  -->
-                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <div class="collapse collapse-plus  bg-white border border-[#551a8b]/20 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title font-semibold">What is Makfare’s mission and vision?</div>
-                        <div class="collapse-content text-sm">
+                        <div class="collapse-title text-base md:text-lg font-semibold">What is Makfare’s mission and vision?</div>
+                        <div class="collapse-content text-sm text-[#1e1e1e]/80 leading-relaxed text-justify space-y-5">
                             <!-- mission  -->
                             <div>
-                                <h6>Our Mission:</h6>
+                                <h6 class="text-base font-semibold text-[#551a8b] border-l-4 border-[#551a8b] pl-3">Our Mission:</h6>
                                 <p>
                                     To reduce post-harvest losses and improve seed quality through advanced cold storage, scientific preservation, and tissue culture technologies.</p>
                             </div>
 
                             <!-- vision  -->
                             <div>
-                                <h6>Our Vision:</h6>
+                                <h6 class="text-base font-semibold text-[#551a8b] border-l-4 border-[#551a8b] pl-3">Our Vision:</h6>
                                 <p>To become a trusted agri-infrastructure partner that enhances farmer income, ensures food security, and promotes sustainable agriculture.</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- 3rd: accordion  -->
-                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <div class="collapse collapse-plus bg-white border border-[#551a8b]/20 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title font-semibold">What products does Makfare store?</div>
-                        <div class="collapse-content text-sm">
+                        <div class="collapse-title text-base md:text-lg font-semibold">What products does Makfare store?</div>
+                        <div class="collapse-content text-sm text-[#1e1e1e]/80 leading-relaxed space-y-4">
                             <p>Makfare provides storage facilities for:</p>
-                            <ul>
+                            <ul class="space-y-2 pl-5 list-disc marker:text-[#551a8b]">
                                 <li>Potatoes (table potatoes)</li>
                                 <li>Potato seeds</li>
                                 <li>Paddy (rice grain)</li>
@@ -639,39 +639,57 @@
                     </div>
 
                     <!-- 4th: accordion  -->
-                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <div class="collapse collapse-plus bg-white border border-[#551a8b]/20 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title font-semibold">What is tissue culture and how is it beneficial?</div>
-                        <div class="collapse-content text-sm">
+                        <div class="collapse-title text-base md:text-lg font-semibold">What is tissue culture and how is it beneficial?</div>
+                        <div class="collapse-content text-sm text-[#1e1e1e]/80 leading-relaxed space-y-4">
                             <p>Tissue culture is a modern plant propagation technique where disease-free and genetically uniform plants are developed in a controlled laboratory environment.</p>
-
-                            <p>Benefits include:</p>
-                            <ul>
-                                <li>Disease-free seed production</li>
-                                <li>Higher yield potential</li>
-                                <li>Uniform crop growth</li>
-                                <li>Improved quality planting material</li>
-                            </ul>
+                            <div class="space-y-2">
+                                <h6 class="text-base font-semibold text-[#551a8b] border-l-4 border-[#551a8b] pl-3">Benefits include:</h6>
+                                <ul class="space-y-2 pl-5 list-disc marker:text-[#551a8b]">
+                                    <li>Disease-free seed production</li>
+                                    <li>Higher yield potential</li>
+                                    <li>Uniform crop growth</li>
+                                    <li>Improved quality planting material</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
                     <!-- 5th: accordion  -->
-                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                    <div class="collapse collapse-plus bg-white border border-[#551a8b]/20 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md">
                         <input type="radio" name="my-accordion-3" />
-                        <div class="collapse-title font-semibold">Who can benefit from Makfare’s services?</div>
-                        <div class="collapse-content text-sm">
-                            <p>Makfare serves farmers, seed producers, agribusiness companies, cooperatives, exporters, and government agricultural programs. Our infrastructure is designed to support both small-scale growers and large commercial operations.</p>
+                        <div class="collapse-title text-base md:text-lg font-semibold">Who can benefit from Makfare’s services?</div>
+                        <div class="collapse-content text-sm text-[#1e1e1e]/80 leading-relaxed text-justify space-y-3">
+                            <p>
+                                Makfare’s services are designed to support a wide range of stakeholders in the agricultural sector. These include:
+                            </p>
+
+                            <ul class="space-y-2 pl-5 list-disc marker:text-[#551a8b]">
+                                <li>Farmers of all scales</li>
+                                <li>Seed producers and distributors</li>
+                                <li>Agribusiness companies and cooperatives</li>
+                                <li>Exporters of agricultural commodities</li>
+                                <li>Government agricultural programs and initiatives</li>
+                            </ul>
+
+                            <p>
+                                Our infrastructure is capable of supporting both small-scale growers and large commercial operations, ensuring reliable storage, processing, and quality preservation.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- image  -->
-                <figure class="relative">
-                    <img src="./assets/PEB-Cold-Storage.png" alt="cold storage" class="w-full object-cover rounded-t">
-                    <figcaption class="absolute left-0 -bottom-5 bg-[#054f73] text-center w-full py-2">
-                        <p class="text-sm text-white font-semibold">Cold Storage | Seed Processing | Tissue Culture</p>
-                    </figcaption>
-                </figure>
+                <!-- image container  -->
+                <div class="flex justify-center items-center ">
+                    <!-- image  -->
+                    <figure class="relative lg:h-[392px] order-first lg:order-last rounded-lg overflow-hidden shadow-md">
+                        <img src="./assets/PEB-Cold-Storage.png" alt="cold storage" class="w-full object-fill rounded-t">
+                        <figcaption class="absolute left-0 bottom-0 bg-[#551a8b]/80 text-center w-full py-3">
+                            <p class="text-sm lg:text-base text-white font-semibold">Reliable Seed and Crop Storage Solutions for Modern Farming</p>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
 
         </section>
