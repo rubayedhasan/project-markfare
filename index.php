@@ -373,11 +373,95 @@
             </div>
 
             <!-- gallery  -->
-            <div>
-                <div role="tablist" class="tabs tabs-border">
-                    <a role="tab" class="tab">Tab 1</a>
-                    <a role="tab" class="tab tab-active">Tab 2</a>
-                    <a role="tab" class="tab">Tab 3</a>
+            <!-- name of each tab group should be unique -->
+            <div class="tabs tabs-border justify-center mt-10">
+                <!-- cold storage tabs  -->
+                <input type="radio" name="Cold_storage_tabs" class="tab text-sm md:text-base font-medium text-opacity-90" aria-label="Cold Storage" />
+                <div class="tab-content border-base-300 bg-base-100 p-10">Photos...</div>
+
+                <!-- Tissue culture tabs  -->
+                <input type="radio" name="tissue_culture_tabs" class="tab tab-active text-sm md:text-base font-medium text-opacity-90" aria-label="Tissue Culture" />
+                <div class="tab-content bg-base-100 p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <!-- 1st: Photo Item -->
+                    <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+
+                        <!-- Image -->
+                        <img src="./assets/tissue_culture/1.png"
+                            alt="Lab"
+                            class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <!-- Overlay -->
+                        <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
+
+                            <p class="text-white font-semibold tracking-wide text-sm">
+                                Tissue Culture Lab
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- 2nd: Photo Item  -->
+                    <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+                        <!-- Image  -->
+                        <img src="./assets/tissue_culture/2.png" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <!-- Overlay  -->
+                        <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
+                            <p class="text-white font-semibold tracking-tighter text-sm">Tissue Culture Lab</p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- 3rd: Photo Item  -->
+                    <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+                        <!-- Image  -->
+                        <img src="./assets/tissue_culture/3.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <!-- Overlay  -->
+                        <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
+                            <p class="text-white font-semibold tracking-tighter text-sm">
+                                Tissue Culture Lab
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- 4th: Photo Item  -->
+                    <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+                        <!-- Image  -->
+                        <img src="./assets/tissue_culture/6.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <!-- Overlay  -->
+                        <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
+                            <p class="text-white font-semibold tracking-tighter text-sm">
+                                Tissue Culture Lab
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- 5th:Photo Item  -->
+                    <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+                        <!-- Image  -->
+                        <img src="./assets/tissue_culture/9.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <!-- Overlay  -->
+                        <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
+                            <p class="text-white font-semibold tracking-tighter text-sm">
+                                Tissue Culture Lab
+                            </p>
+                        </figcaption>
+                    </figure>
+
+                    <!-- 6th:Photo Item  -->
+                    <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+                        <!-- Image  -->
+                        <img src="./assets/tissue_culture/10.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+
+                        <!-- Overlay  -->
+                        <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
+                            <p class="text-white font-semibold tracking-tighter text-sm">
+                                Tissue Culture Lab
+                            </p>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
