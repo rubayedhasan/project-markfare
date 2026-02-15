@@ -588,6 +588,20 @@
                 <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
             </div>
 
+            <!-- sub-section:: faq-container -->
+            <div class=" grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                <!-- faq question & answer  -->
+                <div></div>
+
+                <!-- image  -->
+                <figure class="relative">
+                    <img src="./assets/PEB-Cold-Storage.png" alt="cold storage ">
+                    <figcaption class="absolute left-0 -bottom-5 bg-[#054f73] text-center w-full py-2">
+                        <p class="text-sm text-white font-semibold">Cold Storage | Seed Processing | Tissue Culture</p>
+                    </figcaption>
+                </figure>
+            </div>
+
         </section>
     </main>
 
