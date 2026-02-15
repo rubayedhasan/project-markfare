@@ -589,13 +589,85 @@
             </div>
 
             <!-- sub-section:: faq-container -->
-            <div class=" grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-                <!-- faq question & answer  -->
-                <div></div>
+            <div class="faq-container grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                <!-- faq-accordion:: faq question & answer  -->
+                <div class="faq-accordion">
+                    <!-- 1st: accordion  -->
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title font-semibold">Who is Makfare?</div>
+                        <div class="collapse-content text-sm">
+                            <p>Makfare is a modern agricultural cold storage and seed processing project focused on the preservation, storage, and quality enhancement of potatoes, potato seeds, paddy, paddy seeds, and other agricultural commodities.</p>
+                            <p>We aim to support farmers, seed distributors, and agribusinesses by providing reliable, scientific, and hygienic storage and processing solutions.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2nd: accordion  -->
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title font-semibold">What is Makfare’s mission and vision?</div>
+                        <div class="collapse-content text-sm">
+                            <!-- mission  -->
+                            <div>
+                                <h6>Our Mission:</h6>
+                                <p>
+                                    To reduce post-harvest losses and improve seed quality through advanced cold storage, scientific preservation, and tissue culture technologies.</p>
+                            </div>
+
+                            <!-- vision  -->
+                            <div>
+                                <h6>Our Vision:</h6>
+                                <p>To become a trusted agri-infrastructure partner that enhances farmer income, ensures food security, and promotes sustainable agriculture.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd: accordion  -->
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title font-semibold">What products does Makfare store?</div>
+                        <div class="collapse-content text-sm">
+                            <p>Makfare provides storage facilities for:</p>
+                            <ul>
+                                <li>Potatoes (table potatoes)</li>
+                                <li>Potato seeds</li>
+                                <li>Paddy (rice grain)</li>
+                                <li>Paddy seeds</li>
+                                <li>Other temperature-sensitive agricultural commodities</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 4th: accordion  -->
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title font-semibold">What is tissue culture and how is it beneficial?</div>
+                        <div class="collapse-content text-sm">
+                            <p>Tissue culture is a modern plant propagation technique where disease-free and genetically uniform plants are developed in a controlled laboratory environment.</p>
+
+                            <p>Benefits include:</p>
+                            <ul>
+                                <li>Disease-free seed production</li>
+                                <li>Higher yield potential</li>
+                                <li>Uniform crop growth</li>
+                                <li>Improved quality planting material</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- 5th: accordion  -->
+                    <div class="collapse collapse-plus bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title font-semibold">Who can benefit from Makfare’s services?</div>
+                        <div class="collapse-content text-sm">
+                            <p>Makfare serves farmers, seed producers, agribusiness companies, cooperatives, exporters, and government agricultural programs. Our infrastructure is designed to support both small-scale growers and large commercial operations.</p>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- image  -->
                 <figure class="relative">
-                    <img src="./assets/PEB-Cold-Storage.png" alt="cold storage ">
+                    <img src="./assets/PEB-Cold-Storage.png" alt="cold storage" class="w-full object-cover rounded-t">
                     <figcaption class="absolute left-0 -bottom-5 bg-[#054f73] text-center w-full py-2">
                         <p class="text-sm text-white font-semibold">Cold Storage | Seed Processing | Tissue Culture</p>
                     </figcaption>
