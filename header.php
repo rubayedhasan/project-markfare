@@ -113,7 +113,7 @@
                     </div>
                     <ul
                         tabindex="-1"
-                        class="menu menu-sm dropdown-content bg-base-100 border border-[#551a8b]/60 rounded-box z-1 w-52 p-2 shadow mt-5">
+                        class="menu menu-sm dropdown-content bg-base-100 border border-[#551a8b]/60 rounded-box z-50 w-52 p-2 shadow mt-5">
                         <li>
                             <a class="font-semibold text-sm text-opacity-80 relative after:absolute after:left-0 after:-bottom-1 after:h-[1.5px] after:w-0 after:bg-[#551a8b] after:transition-all after:duration-300 hover:text-[#551a8b] hover:bg-transparent hover:after:w-full" href="./index.php">Home</a>
                         </li>

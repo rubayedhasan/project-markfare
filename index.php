@@ -28,132 +28,133 @@
     <!-- section:: main  -->
     <main class="w-4/5 mx-auto mb-10 md:mb-14 rounded-md">
         <!-- section:: banner  -->
-        <section id="banner" class="relative mt-10 md:mt-14">
+        <section id="banner" class="mt-10 md:mt-14 -z-1">
+            <div class="relative -z-1">
+                <!-- slider container  -->
+                <div class="carousel slider w-full h-[600px] rounded-lg">
+                    <!-- slider item  -->
+                    <div id="slider1" class="carousel-item slider-item w-full">
+                        <!-- hero container-->
+                        <div
+                            class="hero h-full bg-[url('./assets/cold_storage/cold_storage.jpg')] bg-cover bg-center bg-no-repeat">
+                            <div class="hero-overlay"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-2xl">
+                                    <!-- slider title  -->
+                                    <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Makfare – Trusted Cold Storage Solutions</h1>
+                                    <!-- slider description text  -->
+                                    <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
+                                        Cold Makfare delivers reliable, technology driven cold storage solutions designed to preserve potatoes, seed potatoes, and paddy seeds while maintaining freshness, quality, and safety throughout long term storage.
+                                    </p>
+                                    <!-- button container section  -->
+                                    <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
+                                        <!-- btn:contact us  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</button>
 
-            <!-- slider container  -->
-            <div class="carousel slider w-full h-[600px] rounded-lg">
-                <!-- slider item  -->
-                <div id="slider1" class="carousel-item slider-item w-full">
-                    <!-- hero container-->
-                    <div
-                        class="hero h-full bg-[url('./assets/cold_storage/cold_storage.jpg')] bg-cover bg-center bg-no-repeat">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content text-neutral-content text-center">
-                            <div class="max-w-2xl">
-                                <!-- slider title  -->
-                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Makfare – Trusted Cold Storage Solutions</h1>
-                                <!-- slider description text  -->
-                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
-                                    Cold Makfare delivers reliable, technology driven cold storage solutions designed to preserve potatoes, seed potatoes, and paddy seeds while maintaining freshness, quality, and safety throughout long term storage.
-                                </p>
-                                <!-- button container section  -->
-                                <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
-                                    <!-- btn:contact us  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Contact Us</button>
+                                        <!-- btn:get storage  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                    <!-- btn:get storage  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Get Storage</button>
+                    <!-- slider item  -->
+                    <div id="slider2" class="carousel-item w-full">
+                        <!-- hero container-->
+                        <div
+                            class="hero h-full bg-[url('./assets/cold_storage/farmer_with_potato.avif')] bg-cover bg-center bg-no-repeat">
+                            <div class="hero-overlay"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-2xl">
+                                    <!-- slider title  -->
+                                    <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Advanced Cold Storage for Potatoes</h1>
+                                    <!-- slider description text  -->
+                                    <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
+                                        Makfare provides temperature controlled cold storage facilities that protect potatoes from spoilage, maintain natural freshness, and reduce post harvest losses, ensuring consistent quality from farm to market.
+                                    </p>
+                                    <!-- button container section  -->
+                                    <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
+                                        <!-- btn:contact us  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</button>
+
+                                        <!-- btn:get storage  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slider item  -->
+                    <div id="slider3" class="carousel-item w-full">
+                        <!-- hero container-->
+                        <div
+                            class="hero h-full bg-[url('./assets/cold_storage/bages_of_goods.jpg')] bg-cover bg-center bg-no-repeat">
+                            <div class="hero-overlay"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-2xl">
+                                    <!-- slider title  -->
+                                    <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Reliable Storage for Seed Potatoes & Paddy Seeds</h1>
+                                    <!-- slider description text  -->
+                                    <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
+                                        Our specialized cold storage systems maintain ideal conditions for seed potatoes and paddy seeds, preserving germination strength, moisture balance, and seed vitality for dependable agricultural performance.
+                                    </p>
+                                    <!-- button container section  -->
+                                    <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
+                                        <!-- btn:contact us  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</button>
+
+                                        <!-- btn:get storage  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- slider item  -->
+                    <div id="slider4" class="carousel-item w-full">
+                        <!-- hero container-->
+                        <div
+                            class="hero h-full bg-[url('./assets/tissue_culture/4.jpg')] bg-cover bg-center bg-no-repeat">
+                            <div class="hero-overlay"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-2xl">
+                                    <!-- slider title  -->
+                                    <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Tissue Culture for High-Quality Planting Material</h1>
+                                    <!-- slider description text  -->
+                                    <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
+                                        Makfare’s tissue culture solutions produce disease free, uniform, and high yielding planting material, enabling faster multiplication and supporting sustainable, modern agriculture for potatoes and other crops.
+                                    </p>
+                                    <!-- button container section  -->
+                                    <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
+                                        <!-- btn:contact us  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</button>
+
+                                        <!-- btn:get storage  -->
+                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- slider item  -->
-                <div id="slider2" class="carousel-item w-full">
-                    <!-- hero container-->
-                    <div
-                        class="hero h-full bg-[url('./assets/cold_storage/farmer_with_potato.avif')] bg-cover bg-center bg-no-repeat">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content text-neutral-content text-center">
-                            <div class="max-w-2xl">
-                                <!-- slider title  -->
-                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Advanced Cold Storage for Potatoes</h1>
-                                <!-- slider description text  -->
-                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
-                                    Makfare provides temperature controlled cold storage facilities that protect potatoes from spoilage, maintain natural freshness, and reduce post harvest losses, ensuring consistent quality from farm to market.
-                                </p>
-                                <!-- button container section  -->
-                                <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
-                                    <!-- btn:contact us  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Contact Us</button>
-
-                                    <!-- btn:get storage  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Get Storage</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- carousel controlling buttons  -->
+                <div class="slider-control-btns flex w-full justify-center gap-2 py-2 absolute left-0 bottom-5">
+                    <a href="#slider1" class="btn btn-xs">1</a>
+                    <a href="#slider2" class="btn btn-xs">2</a>
+                    <a href="#slider3" class="btn btn-xs">3</a>
+                    <a href="#slider4" class="btn btn-xs">4</a>
                 </div>
-
-                <!-- slider item  -->
-                <div id="slider3" class="carousel-item w-full">
-                    <!-- hero container-->
-                    <div
-                        class="hero h-full bg-[url('./assets/cold_storage/bages_of_goods.jpg')] bg-cover bg-center bg-no-repeat">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content text-neutral-content text-center">
-                            <div class="max-w-2xl">
-                                <!-- slider title  -->
-                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Reliable Storage for Seed Potatoes & Paddy Seeds</h1>
-                                <!-- slider description text  -->
-                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
-                                    Our specialized cold storage systems maintain ideal conditions for seed potatoes and paddy seeds, preserving germination strength, moisture balance, and seed vitality for dependable agricultural performance.
-                                </p>
-                                <!-- button container section  -->
-                                <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
-                                    <!-- btn:contact us  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Contact Us</button>
-
-                                    <!-- btn:get storage  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Get Storage</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- slider item  -->
-                <div id="slider4" class="carousel-item w-full">
-                    <!-- hero container-->
-                    <div
-                        class="hero h-full bg-[url('./assets/tissue_culture/4.jpg')] bg-cover bg-center bg-no-repeat">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content text-neutral-content text-center">
-                            <div class="max-w-2xl">
-                                <!-- slider title  -->
-                                <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b] slider-title">Tissue Culture for High-Quality Planting Material</h1>
-                                <!-- slider description text  -->
-                                <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">
-                                    Makfare’s tissue culture solutions produce disease free, uniform, and high yielding planting material, enabling faster multiplication and supporting sustainable, modern agriculture for potatoes and other crops.
-                                </p>
-                                <!-- button container section  -->
-                                <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
-                                    <!-- btn:contact us  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Contact Us</button>
-
-                                    <!-- btn:get storage  -->
-                                    <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                        type="button">Get Storage</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- carousel controlling buttons  -->
-            <div class="slider-control-btns flex w-full justify-center gap-2 py-2 absolute left-0 bottom-5">
-                <a href="#slider1" class="btn btn-xs">1</a>
-                <a href="#slider2" class="btn btn-xs">2</a>
-                <a href="#slider3" class="btn btn-xs">3</a>
-                <a href="#slider4" class="btn btn-xs">4</a>
             </div>
         </section>
 
