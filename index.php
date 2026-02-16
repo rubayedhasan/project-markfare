@@ -33,7 +33,7 @@
             <!-- slider container  -->
             <div class="carousel slider w-full h-[600px] rounded-lg">
                 <!-- slider item  -->
-                <div id="item1" class="carousel-item slider-item w-full">
+                <div id="slider1" class="carousel-item slider-item w-full">
                     <!-- hero container-->
                     <div
                         class="hero h-full bg-[url('./assets/cold_storage/cold_storage.jpg')] bg-cover bg-center bg-no-repeat">
@@ -62,7 +62,7 @@
                 </div>
 
                 <!-- slider item  -->
-                <div id="item2" class="carousel-item w-full">
+                <div id="slider2" class="carousel-item w-full">
                     <!-- hero container-->
                     <div
                         class="hero h-full bg-[url('./assets/cold_storage/farmer_with_potato.avif')] bg-cover bg-center bg-no-repeat">
@@ -91,7 +91,7 @@
                 </div>
 
                 <!-- slider item  -->
-                <div id="item3" class="carousel-item w-full">
+                <div id="slider3" class="carousel-item w-full">
                     <!-- hero container-->
                     <div
                         class="hero h-full bg-[url('./assets/cold_storage/bages_of_goods.jpg')] bg-cover bg-center bg-no-repeat">
@@ -120,7 +120,7 @@
                 </div>
 
                 <!-- slider item  -->
-                <div id="item4" class="carousel-item w-full">
+                <div id="slider4" class="carousel-item w-full">
                     <!-- hero container-->
                     <div
                         class="hero h-full bg-[url('./assets/tissue_culture/4.jpg')] bg-cover bg-center bg-no-repeat">
@@ -150,10 +150,10 @@
             </div>
             <!-- carousel controlling buttons  -->
             <div class="slider-control-btns flex w-full justify-center gap-2 py-2 absolute left-0 bottom-5">
-                <a href="#item1" class="btn btn-xs">1</a>
-                <a href="#item2" class="btn btn-xs">2</a>
-                <a href="#item3" class="btn btn-xs">3</a>
-                <a href="#item4" class="btn btn-xs">4</a>
+                <a href="#slider1" class="btn btn-xs">1</a>
+                <a href="#slider2" class="btn btn-xs">2</a>
+                <a href="#slider3" class="btn btn-xs">3</a>
+                <a href="#slider4" class="btn btn-xs">4</a>
             </div>
         </section>
 
@@ -574,6 +574,75 @@
             </div>
         </section>
 
+        <!-- section::testimonial  -->
+        <section id="testimonial" class="mt-10 md:mt-14 bg-[url('./assets/review_bg.png')] bg-cover bg-center bg-no-repeat py-16 rounded shadow">
+            <!-- section description container  -->
+            <div class="max-w-5xl mx-auto text-center space-y-4">
+                <!-- section label  -->
+                <span class="section-label inline-block text-sm font-semibold tracking-wider text-[#551a8b] uppercase">Tetsimonials</span>
+
+                <!-- section title  -->
+                <h3 class="text-2xl md:text-3xl font-bold">What people say?</h3>
+
+                <!-- divider -->
+                <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
+            </div>
+
+            <!-- customer review container -->
+            <div class="customer-review-container mt-10">
+                <div class="carousel w-full  justify-center">
+                    <div id="testimonial1" class="carousel-item w-full justify-center items-center px-4">
+                        <!-- customer review  -->
+                        <div class="customer-review max-w-2xl w-full bg-[#054F731A] backdrop-blur-lg border border-white/10 
+                rounded-2xl shadow-lg p-10 text-center transition-all duration-300 
+                hover:shadow-xl hover:-translate-y-1">
+                            <!-- review rating  -->
+                            <div class="review-rating flex justify-center gap-1 text-[#551a8b] text-lg mb-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke "></i>
+                                <!-- <i class="fa-regular fa-star"></i> -->
+                            </div>
+
+                            <!-- review message  -->
+                            <div class="space-y-4">
+                                <h6 class="text-lg md:text-xl font-semibold">Makfare has significantly reduced our post-harvest losses.</h6>
+                                <p class="text-sm md:text-base text-opacity-80 leading-relaxed before:content-['“'] after:content-['”']">The cold storage facility is well-managed and maintains proper temperature control for our potato stock. We experienced better market prices because our produce quality remained intact for a longer period. Highly reliable service.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div id="testimonial2" class="carousel-item w-full">
+                        <img
+                            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                            class="w-full" />
+                    </div>
+
+                    <div id="testimonial3" class="carousel-item w-full">
+                        <img
+                            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                            class="w-full" />
+                    </div>
+
+                    <div id="testimonial4" class="carousel-item w-full">
+                        <img
+                            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                            class="w-full" />
+                    </div> -->
+                </div>
+                <div class="flex w-full justify-center gap-2 py-2">
+                    <a href="#testimonial1" class="btn btn-xs">1</a>
+                    <!-- <a href="#testimonial2" class="btn btn-xs">2</a>
+                    <a href="#testimonial3" class="btn btn-xs">3</a>
+                    <a href="#testimonial4" class="btn btn-xs">4</a> -->
+                </div>
+            </div>
+
+
+        </section>
+
         <!-- section:: FAQ  -->
         <section id="faq" class="mt-10 md:mt-14">
             <!-- section description container  -->
@@ -691,7 +760,6 @@
                     </figure>
                 </div>
             </div>
-
         </section>
     </main>
 
