@@ -727,8 +727,8 @@
                                 </figure>
                                 <!-- profile information  -->
                                 <div class="text-sm">
-                                    <p class="font-semibold text-[#1e1e1e]">Rahima Begum</p>
-                                    <p class="text-gray-500">Seed Producer & Supplier</p>
+                                    <p class="font-semibold text-[#1e1e1e]">Harun Rashid</p>
+                                    <p class="text-gray-500">Paddy Cultivator</p>
                                 </div>
                             </div>
                         </div>
@@ -774,8 +774,8 @@
                                 </figure>
                                 <!-- profile information  -->
                                 <div class="text-sm">
-                                    <p class="font-semibold text-[#1e1e1e]">Rahima Begum</p>
-                                    <p class="text-gray-500">Seed Producer & Supplier</p>
+                                    <p class="font-semibold text-[#1e1e1e]">Shafiqul Islam</p>
+                                    <p class="text-gray-500">Agribusiness Entrepreneur</p>
                                 </div>
                             </div>
                         </div>
