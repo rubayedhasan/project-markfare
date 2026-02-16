@@ -590,12 +590,12 @@
 
             <!-- customer review container -->
             <div class="customer-review-container mt-10">
-                <div class="carousel w-full  justify-center">
+                <div class="carousel overflow-visible w-full justify-center">
                     <div id="testimonial1" class="carousel-item w-full justify-center items-center px-4">
                         <!-- customer review  -->
                         <div class="customer-review max-w-2xl w-full bg-[#054F731A] backdrop-blur-lg border border-white/10 
                 rounded-2xl shadow-lg p-10 text-center transition-all duration-300 
-                hover:shadow-xl hover:-translate-y-1">
+                hover:shadow-xl hover:-translate-y-1 relative">
                             <!-- review rating  -->
                             <div class="review-rating flex justify-center gap-1 text-[#551a8b] text-lg mb-4">
                                 <i class="fa-solid fa-star"></i>
@@ -607,9 +607,27 @@
                             </div>
 
                             <!-- review message  -->
-                            <div class="space-y-4">
+                            <div class="review-message space-y-4">
                                 <h6 class="text-lg md:text-xl font-semibold">Makfare has significantly reduced our post-harvest losses.</h6>
                                 <p class="text-sm md:text-base text-opacity-80 leading-relaxed before:content-['“'] after:content-['”']">The cold storage facility is well-managed and maintains proper temperature control for our potato stock. We experienced better market prices because our produce quality remained intact for a longer period. Highly reliable service.</p>
+                            </div>
+
+                            <!-- profile  -->
+                            <div class="mt-10 flex flex-col items-center space-y-2">
+                                <!-- icon -->
+                                <figure class="absolute left-1/2 -translate-x-1/2 -bottom-10 pt-8">
+                                    <div class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f731a] shadow-lg transition-all duration-300">
+                                        <img
+                                            src="./assets/farmer.png"
+                                            alt="Potato Cold Storage"
+                                            class="w-10 h-10 object-contain" />
+                                    </div>
+                                </figure>
+
+                                <div class="text-sm">
+                                    <p class="font-semibold text-[#1e1e1e]">Abdul Karim</p>
+                                    <p class="text-gray-500">Potato Farmer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
