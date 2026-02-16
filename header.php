@@ -103,7 +103,7 @@
         </section>
 
         <!-- section::navbar  -->
-        <nav class="navbar bg-[#054F731A] backdrop-blur-md border border-white/10 rounded-xl shadow-[0_5px_15px_rgba(0,0,0,0.25)] mt-8 xl:mt-0">
+        <nav class="navbar bg-[#054F731A] backdrop-blur-md border border-white/10 rounded-xl shadow-[0_5px_15px_rgba(0,0,0,0.25)] mt-8 xl:mt-0 z-50">
             <div class="navbar-start lg:hidden">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="border border-[#551a8b]/60 p-2 rounded-md lg:hidden">

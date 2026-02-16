@@ -28,8 +28,8 @@
     <!-- section:: main  -->
     <main class="w-4/5 mx-auto mb-10 md:mb-14 rounded-md">
         <!-- section:: banner  -->
-        <section id="banner" class="mt-10 md:mt-14 -z-1">
-            <div class="relative -z-1">
+        <section id="banner" class="mt-10 md:mt-14">
+            <div class="relative">
                 <!-- slider container  -->
                 <div class="carousel slider w-full h-[600px] rounded-lg">
                     <!-- slider item  -->
