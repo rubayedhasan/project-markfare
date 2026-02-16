@@ -575,7 +575,7 @@
         </section>
 
         <!-- section::testimonial  -->
-        <section id="testimonial" class="mt-10 md:mt-14 bg-[url('./assets/review_bg.png')] bg-cover bg-center bg-no-repeat py-16 rounded shadow">
+        <section id="testimonial" class="mt-10 md:mt-14 bg-[url('./assets/review_bg.png')] bg-cover bg-center bg-no-repeat px-5 md:px-0 py-10 lg:py-16 rounded shadow">
             <!-- section description container  -->
             <div class="max-w-5xl mx-auto text-center space-y-4">
                 <!-- section label  -->
@@ -595,7 +595,7 @@
                     <div id="testimonial1" class="carousel-item w-full justify-center">
                         <!-- customer review  -->
                         <div
-                            class="customer-review max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
+                            class="customer-review max-w-[300px] md:max-w-lg lg:max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-6 md:p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
                             <!-- review rating  -->
                             <div
                                 class="review-rating flex justify-center gap-1 text-[#551a8b] text-lg mb-4">
@@ -644,7 +644,7 @@
                     <div id="testimonial2" class="carousel-item w-full justify-center">
                         <!-- customer review  -->
                         <div
-                            class="customer-review max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
+                            class="customer-review max-w-[300px] md:max-w-lg lg:max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-6 md:p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
                             <!-- review rating  -->
                             <div
                                 class="review-rating flex justify-center gap-1 text-[#551a8b] text-lg mb-4">
@@ -691,7 +691,7 @@
                     <div id="testimonial3" class="carousel-item w-full justify-center">
                         <!-- customer review  -->
                         <div
-                            class="customer-review max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
+                            class="customer-review max-w-[300px] md:max-w-lg lg:max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-6 md:p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
                             <!-- review rating  -->
                             <div
                                 class="review-rating flex justify-center gap-1 text-[#551a8b] text-lg mb-4">
@@ -738,7 +738,7 @@
                     <div id="testimonial4" class="carousel-item w-full justify-center">
                         <!-- customer review  -->
                         <div
-                            class="customer-review max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
+                            class="customer-review max-w-[300px] md:max-w-lg lg:max-w-2xl bg-[#054F731A] backdrop-blur-lg border border-white/10 rounded-2xl shadow-lg p-6 md:p-10 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1 relative">
                             <!-- review rating  -->
                             <div
                                 class="review-rating flex justify-center gap-1 text-[#551a8b] text-lg mb-4">
@@ -783,7 +783,7 @@
                 </div>
 
                 <!-- slider controlling container  -->
-                <div class="flex w-full justify-center gap-2 py-2 mt-16">
+                <div class="flex w-full justify-center gap-2 py-2 mt-10 md:mt-16">
                     <a href="#testimonial1" class="btn btn-xs btn-ghost text-[#551a8b] hover:bg-none hover:border-none">
                         <i class="fa-regular fa-circle-dot"></i>
                     </a>
