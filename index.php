@@ -620,10 +620,10 @@
 
                             <!-- profile  -->
                             <div class="mt-10 flex flex-col items-center space-y-2">
-                                <!-- icon -->
+                                <!-- profile picture  -->
                                 <figure class="absolute left-1/2 -translate-x-1/2 -bottom-10 pt-8">
                                     <div
-                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f731a] shadow-lg transition-all duration-300">
+                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f73]/20 shadow-lg">
                                         <img
                                             src="./assets/farmer.png"
                                             alt="Potato Cold Storage"
@@ -631,6 +631,7 @@
                                     </div>
                                 </figure>
 
+                                <!-- profile information  -->
                                 <div class="text-sm">
                                     <p class="font-semibold text-[#1e1e1e]">Abdul Karim</p>
                                     <p class="text-gray-500">Commercial Potato Farmer</p>
@@ -667,17 +668,17 @@
 
                             <!-- profile  -->
                             <div class="mt-10 flex flex-col items-center space-y-2">
-                                <!-- icon -->
+                                <!-- profile picture -->
                                 <figure class="absolute left-1/2 -translate-x-1/2 -bottom-10 pt-8">
                                     <div
-                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f731a] shadow-lg transition-all duration-300">
+                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f73]/20 shadow-lg">
                                         <img
                                             src="./assets/farmer.png"
                                             alt="Potato Cold Storage"
                                             class="w-10 h-10 object-contain" />
                                     </div>
                                 </figure>
-
+                                <!-- profile information  -->
                                 <div class="text-sm">
                                     <p class="font-semibold text-[#1e1e1e]">Rahima Begum</p>
                                     <p class="text-gray-500">Seed Producer & Supplier</p>
@@ -714,20 +715,20 @@
 
                             <!-- profile  -->
                             <div class="mt-10 flex flex-col items-center space-y-2">
-                                <!-- icon -->
+                                <!-- profile picture -->
                                 <figure class="absolute left-1/2 -translate-x-1/2 -bottom-10 pt-8">
                                     <div
-                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f731a] shadow-lg transition-all duration-300">
+                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f73]/20 shadow-lg">
                                         <img
                                             src="./assets/farmer.png"
                                             alt="Potato Cold Storage"
                                             class="w-10 h-10 object-contain" />
                                     </div>
                                 </figure>
-
+                                <!-- profile information  -->
                                 <div class="text-sm">
-                                    <p class="font-semibold text-[#1e1e1e]">Md. Harun Rashid</p>
-                                    <p class="text-gray-500">Paddy Cultivator</p>
+                                    <p class="font-semibold text-[#1e1e1e]">Rahima Begum</p>
+                                    <p class="text-gray-500">Seed Producer & Supplier</p>
                                 </div>
                             </div>
                         </div>
@@ -761,20 +762,20 @@
 
                             <!-- profile  -->
                             <div class="mt-10 flex flex-col items-center space-y-2">
-                                <!-- icon -->
+                                <!-- profile picture -->
                                 <figure class="absolute left-1/2 -translate-x-1/2 -bottom-10 pt-8">
                                     <div
-                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f731a] shadow-lg transition-all duration-300">
+                                        class="w-16 h-16 flex items-center justify-center rounded-full bg-white/80 border-2 border-[#054f73]/20 shadow-lg">
                                         <img
                                             src="./assets/farmer.png"
                                             alt="Potato Cold Storage"
                                             class="w-10 h-10 object-contain" />
                                     </div>
                                 </figure>
-
+                                <!-- profile information  -->
                                 <div class="text-sm">
-                                    <p class="font-semibold text-[#1e1e1e]">Shafiqul Islam</p>
-                                    <p class="text-gray-500">Agribusiness Entrepreneur</p>
+                                    <p class="font-semibold text-[#1e1e1e]">Rahima Begum</p>
+                                    <p class="text-gray-500">Seed Producer & Supplier</p>
                                 </div>
                             </div>
                         </div>
