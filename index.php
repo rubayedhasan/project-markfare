@@ -35,7 +35,7 @@
             <div class="relative">
                 <!-- slider container  -->
                 <div class="carousel slider w-full h-[600px] rounded-lg">
-                    <!-- slider item  -->
+                    <!-- 1st::slider item  -->
                     <div id="slider1" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
@@ -64,7 +64,7 @@
                         </div>
                     </div>
 
-                    <!-- slider item  -->
+                    <!-- 2nd::slider item  -->
                     <div id="slider2" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
@@ -93,7 +93,7 @@
                         </div>
                     </div>
 
-                    <!-- slider item  -->
+                    <!-- 3rd::slider item  -->
                     <div id="slider3" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
@@ -122,7 +122,7 @@
                         </div>
                     </div>
 
-                    <!-- slider item  -->
+                    <!-- 4th::slider item  -->
                     <div id="slider4" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
