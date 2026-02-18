@@ -23,13 +23,13 @@
 
 <body>
     <!-- header section start  -->
-    <header class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
+    <header class="w-4/5 mx-auto my-8 md:my-8 rounded-md">
         <!-- section::branding  -->
         <section class="branding flex flex-col xl:flex-row items-center gap-3">
             <!-- logo -->
             <div class="brand xl:w-[280px]">
                 <a href="./index.php">
-                    <figure class="brand-logo w-[150px] h-[150px] flex items-center">
+                    <figure class="brand-logo w-[115px] h-[115px] flex items-center">
                         <img loading="lazy" src="./assets/makfare_logo_without_bg.png" alt="makfare cold storage" class="w-full">
                     </figure>
                 </a>

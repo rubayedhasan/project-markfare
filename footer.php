@@ -31,7 +31,7 @@
                     <!-- markfare logo  -->
                     <div class="brand-logo">
                         <a href="./index.php">
-                            <figure class="brand-logo w-[150px] flex items-center">
+                            <figure class="brand-logo w-[115px] flex items-center">
                                 <img loading="lazy" src="./assets/makfare_logo_without_bg.png" alt="makfare cold storage" class="w-full h-auto">
                             </figure>
                         </a>

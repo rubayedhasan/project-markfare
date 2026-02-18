@@ -19,6 +19,9 @@
     <!-- stylesheet link  -->
     <link rel="stylesheet" href="./styles/main.css">
 
+    <!-- js link  -->
+    <script defer src="./js/main.js"></script>
+
 </head>
 
 <body>
@@ -62,7 +65,7 @@
                     </div>
 
                     <!-- slider item  -->
-                    <div id="slider2" class="carousel-item w-full">
+                    <div id="slider2" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
                             class="hero h-full bg-[url('./assets/cold_storage/farmer_with_potato.avif')] bg-cover bg-center bg-no-repeat">
@@ -91,7 +94,7 @@
                     </div>
 
                     <!-- slider item  -->
-                    <div id="slider3" class="carousel-item w-full">
+                    <div id="slider3" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
                             class="hero h-full bg-[url('./assets/cold_storage/bages_of_goods.jpg')] bg-cover bg-center bg-no-repeat">
@@ -120,7 +123,7 @@
                     </div>
 
                     <!-- slider item  -->
-                    <div id="slider4" class="carousel-item w-full">
+                    <div id="slider4" class="carousel-item slider-item w-full">
                         <!-- hero container-->
                         <div
                             class="hero h-full bg-[url('./assets/tissue_culture/4.jpg')] bg-cover bg-center bg-no-repeat">
