@@ -17,6 +17,9 @@
 
     <!-- stylesheet link  -->
     <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- js link  -->
+    <script defer src="./js/main.js"></script>
 </head>
 
 <body>
