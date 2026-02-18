@@ -1,19 +1,24 @@
+// get the slider controllers
+const sliderControllers = document.querySelectorAll(".slider-controller");
+
+// controller track
+let controllerIndex = 0;
+
 // handler function:: banner auto sliding
-let slidersIndex = 0;
 function autoSlidingBanner() {
-  setTimeout(autoSlidingBanner, 3000);
-
-  const sliders = document.querySelectorAll(".slider-item");
-  for (const slider of sliders) {
-    slider.style.display = "none";
-  }
-
-  slidersIndex++;
-  if (slidersIndex > sliders.length) {
-    slidersIndex = 1;
-  }
-  sliders[slidersIndex - 1].style.display = "flex";
+  const controller = sliderControllers[controllerIndex];
+  controller.click();
 }
+
+// call the autoSlidingBanner function after 2s
+setInterval(() => {
+  autoSlidingBanner();
+  controllerIndex++;
+
+  if (controllerIndex >= sliderControllers.length) {
+    controllerIndex = 0;
+  }
+}, 2000);
 
 // calling the functions
 autoSlidingBanner();

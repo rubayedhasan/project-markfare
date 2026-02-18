@@ -153,10 +153,10 @@
                 </div>
                 <!-- carousel controlling buttons  -->
                 <div class="slider-control-btns flex w-full justify-center gap-2 py-2 absolute left-0 bottom-5">
-                    <a href="#slider1" class="btn btn-xs">1</a>
-                    <a href="#slider2" class="btn btn-xs">2</a>
-                    <a href="#slider3" class="btn btn-xs">3</a>
-                    <a href="#slider4" class="btn btn-xs">4</a>
+                    <a href="#slider1" class="slider-controller btn btn-xs">1</a>
+                    <a href="#slider2" class="slider-controller btn btn-xs">2</a>
+                    <a href="#slider3" class="slider-controller btn btn-xs">3</a>
+                    <a href="#slider4" class="slider-controller btn btn-xs">4</a>
                 </div>
             </div>
         </section>
