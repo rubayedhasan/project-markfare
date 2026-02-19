@@ -31,21 +31,25 @@
         <!-- section:: intro  -->
         <section id="section-intro" class="px-8 py-40 bg-[#054f7380] bg-[url('./assets/section-bg-1.webp')] bg-blend-overlay bg-cover bg-center bg-no-repeat border border-[#054f7380] rounded-sm text-center relative">
 
-
             <!-- section title  -->
-            <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">Contact Our Friendly Team</h1>
+            <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">
+                Get in Touch With Our Team
+            </h1>
 
             <!-- section description  -->
-            <p class="text-sm md:text-base text-center leading-relaxed text-white/90 slider-text">Let us know how we can help.</p>
+            <p class="text-sm md:text-base text-center leading-relaxed text-white/90 max-w-2xl mx-auto">
+                We are here to assist you. Whether you have a question, need support, or would like more information about our services, our team is ready to help.
+            </p>
 
             <!-- path indicator  -->
-            <nav class="absolute left-8 bottom-6">
-                <ul class="text-white flex  gap-4 font-semibold text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">
-                    <li><a href="./index.php">Home</a></li>
-                    <li><i class="fa-solid fa-arrow-right-long"></i></li>
-                    <li>Contact</li>
+            <nav class="absolute left-8 bottom-6" aria-label="Breadcrumb">
+                <ul class="text-white flex gap-4 font-semibold text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">
+                    <li><a href="./index.php" class="hover:underline">Home</a></li>
+                    <li><i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i></li>
+                    <li aria-current="page">Contact</li>
                 </ul>
             </nav>
+
         </section>
     </main>
 
