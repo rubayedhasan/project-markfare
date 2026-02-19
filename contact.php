@@ -226,6 +226,47 @@
 
         </section>
 
+        <!-- section:: call to action(CTA) -->
+        <section id="call-to-action" class="mt-20 py-16 bg-white">
+
+            <div class="max-w-5xl mx-auto px-6 text-center">
+
+                <!-- section title -->
+                <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1e1e1e]">
+                    Secure Your Products with Our Advanced Cold Storage Solutions
+                </h3>
+
+                <!-- divider -->
+                <div class="mx-auto w-20 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full my-6"></div>
+
+                <!-- section description -->
+                <p class="text-sm md:text-base text-[#1e1e1e]/80 leading-relaxed md:w-3/4 mx-auto">
+                    Ensure long-term quality and maximum value for your agricultural products
+                    with our advanced cold storage infrastructure. Makfare combines technology,
+                    precision monitoring, and professional management to deliver secure, efficient,
+                    and reliable storage solutions you can trust.
+                </p>
+
+                <!-- CTA -->
+                <div class="mt-10">
+                    <a href="./newsletter.php"
+                        class="inline-flex items-center justify-center px-8 py-3 rounded-md 
+                      bg-[#551a8b] text-white font-semibold 
+                      hover:bg-[#054f73] 
+                      transition-all duration-300 
+                      shadow-md hover:shadow-lg">
+
+                        Request Storage Service
+                        <span class="ml-2">
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <!-- section:: footer  -->
