@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./styles/main.css">
 
     <!-- js link  -->
+    <script defer src="./js/slider.js"></script>
     <script defer src="./js/main.js"></script>
 
 </head>
@@ -52,12 +53,12 @@
                                     <!-- button container section  -->
                                     <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
                                         <!-- btn:contact us  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Contact Us</button>
+                                        <a href="./contact.php" class="contact-page-btn font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</a>
 
                                         <!-- btn:get storage  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Get Storage</button>
+                                        <a href="" class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,12 +82,12 @@
                                     <!-- button container section  -->
                                     <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
                                         <!-- btn:contact us  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Contact Us</button>
+                                        <a href="./contact.php" class="contact-page-btn font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</a>
 
                                         <!-- btn:get storage  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Get Storage</button>
+                                        <a href="" class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,12 +111,12 @@
                                     <!-- button container section  -->
                                     <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
                                         <!-- btn:contact us  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Contact Us</button>
+                                        <a href="./contact.php" class="contact-page-btn font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</a>
 
                                         <!-- btn:get storage  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Get Storage</button>
+                                        <a href="" class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,12 +140,12 @@
                                     <!-- button container section  -->
                                     <div class="cta-button-container inline-flex gap-2 md:gap-4 mt-4">
                                         <!-- btn:contact us  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Contact Us</button>
+                                        <a href="./contact.php" class="contact-page-btn font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Contact Us</a>
 
                                         <!-- btn:get storage  -->
-                                        <button class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
-                                            type="button">Get Storage</button>
+                                        <a href="" class="font-inter font-medium text-sm text-white px-5 py-2.5 rounded-lg bg-gradient-to-br from-[#551a8b] to-[#054f73] border border-white/10 shadow-[0_4px_14px_rgba(85,26,139,0.35)] transition-all hover:shadow-[0_6px_18px_rgba(85,26,139,0.45)] hover:from-[#6a25a6] hover:-translate-y-[1px] active:translate-y-0 active:shadow-[0_3px_10px_rgba(85,26,139,0.25)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40"
+                                            type="button">Get Storage</a>
                                     </div>
                                 </div>
                             </div>

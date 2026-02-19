@@ -19,6 +19,9 @@
     <!-- stylesheet link  -->
     <link rel="stylesheet" href="./styles/main.css">
 
+    <!-- script link  -->
+    <script defer src="./js/main.js"></script>
+
 </head>
 
 <body>
@@ -157,10 +160,10 @@
                 <!-- button container section  -->
                 <div class="cta-button-container inline-flex gap-2 md:gap-4">
                     <!-- btn:contact us  -->
-                    <button class="font-inter font-medium text-xs md:text-sm px-2.5 sm:px-3 md:px-5 py-1 sm:py-2 md:py-2.5 rounded-lg text-[#551a8b] border border-[#551a8b]/60 transition-all duration-200 hover:text-white hover:bg-gradient-to-br hover:from-[#551a8b] hover:to-[#054f73] hover:shadow-[0_4px_14px_rgba(85,26,139,0.35)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40" type="button">Contact Us</button>
+                    <a href="./contact.php" class="contact-page-btn font-inter font-medium text-xs md:text-sm px-2.5 sm:px-3 md:px-5 py-1 sm:py-2 md:py-2.5 rounded-lg text-[#551a8b] border border-[#551a8b]/60 transition-all duration-200 hover:text-white hover:bg-gradient-to-br hover:from-[#551a8b] hover:to-[#054f73] hover:shadow-[0_4px_14px_rgba(85,26,139,0.35)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40" type="button">Contact Us</a>
 
                     <!-- btn:get storage  -->
-                    <button class="font inter font-medium text-xs md:text-sm px-2.5 md:px-5 py-1 md:py-2.5 rounded-lg text-[#551a8b] border border-[#551a8b]/60 transition-all duration-200 hover:text-white hover:bg-gradient-to-br hover:from-[#551a8b] hover:to-[#054f73] hover:shadow-[0_4px_14px_rgba(85,26,139,0.35)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40" type="button">Get Storage</button>
+                    <a href="" class="font inter font-medium text-xs md:text-sm px-2.5 md:px-5 py-1 md:py-2.5 rounded-lg text-[#551a8b] border border-[#551a8b]/60 transition-all duration-200 hover:text-white hover:bg-gradient-to-br hover:from-[#551a8b] hover:to-[#054f73] hover:shadow-[0_4px_14px_rgba(85,26,139,0.35)] focus:outline-none focus:ring-2 focus:ring-[#551a8b]/40" type="button">Get Storage</a>
                 </div>
             </div>
         </nav>
