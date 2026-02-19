@@ -29,14 +29,14 @@
     <!-- section:main  -->
     <main class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
         <!-- section:: intro  -->
-        <section id="section-intro" class="py-40 bg-[#054f7380] bg-[url('./assets/section-bg-1.webp')] bg-blend-overlay bg-cover bg-center bg-no-repeat border border-[#054f7380] rounded-sm text-center relative">
+        <section id="section-intro" class="px-8 py-40 bg-[#054f7380] bg-[url('./assets/section-bg-1.webp')] bg-blend-overlay bg-cover bg-center bg-no-repeat border border-[#054f7380] rounded-sm text-center relative">
 
 
             <!-- section title  -->
             <h1 class="mb-4 text-3xl md:text-5xl font-extrabold tracking-tight text-white text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">Contact Our Friendly Team</h1>
 
             <!-- section description  -->
-            <p class="text-sm md:text-base text-justify md:text-center leading-relaxed text-white/90 slider-text">Let us know how we can help.</p>
+            <p class="text-sm md:text-base text-center leading-relaxed text-white/90 slider-text">Let us know how we can help.</p>
 
             <!-- path indicator  -->
             <nav class="absolute left-8 bottom-6">
