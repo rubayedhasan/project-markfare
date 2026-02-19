@@ -190,11 +190,42 @@
                             </span>
                         </button>
                     </div>
-
                 </form>
+            </div>
+        </section>
+
+        <!-- section:: map display -->
+        <section id="display-map" class="mt-16">
+
+            <!-- Section Header -->
+            <div class="max-w-4xl mb-8">
+                <h3 class="text-2xl md:text-3xl font-bold text-[#1e1e1e]">
+                    Our Location
+                </h3>
+
+                <div class="w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full my-4"></div>
+
+                <p class="text-sm md:text-base text-[#1e1e1e]/80 leading-relaxed">
+                    Visit our facility at the address below. Use the interactive map for directions and navigation assistance.
+                </p>
+            </div>
+
+            <!-- Map Container -->
+            <div class="rounded-lg overflow-hidden border border-[#054f73]/20 shadow-sm hover:shadow-md transition-all duration-300">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14673.170813346967!2d90.12724304421671!3d23.159514793857674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755656efc6ffdbb%3A0x448dc7200d8f7a0c!2sMostafapur!5e0!3m2!1sen!2sbd!4v1771488690118!5m2!1sen!2sbd"
+                    class="w-full h-[350px] md:h-[450px] lg:h-[500px]"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
             </div>
 
         </section>
+
     </main>
 
     <!-- section:: footer  -->
