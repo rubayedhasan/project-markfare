@@ -199,7 +199,7 @@
                 </div>
 
                 <!-- Impact Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div id="countdown" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
                     <!-- Potato Cold Storage -->
                     <div class="bg-[#f9f9f9] rounded-xl shadow-lg p-8 hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
