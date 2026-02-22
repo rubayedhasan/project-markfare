@@ -183,6 +183,69 @@
             </div>
         </section>
 
+        <!-- section:: our-impact -->
+        <section id="our-impact" class="py-20 bg-white">
+            <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
+
+                <!-- Section Title -->
+                <div class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-4">
+                        Our Impact
+                    </h2>
+                    <div class="w-24 h-1 bg-[#054f73] mx-auto rounded-full"></div>
+                </div>
+
+                <!-- Impact Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                    <!-- Potato Cold Storage -->
+                    <div class="bg-[#f9f9f9] rounded-xl shadow-lg p-8 hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
+                        <div class="text-[#551a8b] text-4xl mb-4">
+                            <i class="fa-solid fa-warehouse"></i>
+                        </div>
+                        <p class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-2">
+                            <span class="count-number" data-count-target="50">0</span>+
+                        </p>
+                        <p class="text-[#1e1e1e]/90 font-medium">Tons Potato Storage</p>
+                    </div>
+
+                    <!-- Paddy Storage -->
+                    <div class="bg-[#f9f9f9] rounded-xl shadow-lg p-8 hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
+                        <div class="text-[#054f73] text-4xl mb-4">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <p class="text-3xl md:text-4xl font-extrabold text-[#054f73] mb-2">
+                            <span class="count-number" data-count-target="40">0</span>+
+                        </p>
+                        <p class="text-[#1e1e1e]/90 font-medium">Tons Paddy Storage</p>
+                    </div>
+
+                    <!-- Seed Processing -->
+                    <div class="bg-[#f9f9f9] rounded-xl shadow-lg p-8 hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
+                        <div class="text-[#551a8b] text-4xl mb-4">
+                            <i class="fa-solid fa-cogs"></i>
+                        </div>
+                        <p class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-2">
+                            <span class="count-number" data-count-target="500">0</span>+
+                        </p>
+                        <p class="text-[#1e1e1e]/90 font-medium">Seeds Processed</p>
+                    </div>
+
+                    <!-- Tissue Culture -->
+                    <div class="bg-[#f9f9f9] rounded-xl shadow-lg p-8 hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
+                        <div class="text-[#054f73] text-4xl mb-4">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+                        <p class="text-3xl md:text-4xl font-extrabold text-[#054f73] mb-2">
+                            <span class="count-number" data-count-target="95">0</span>%
+                        </p>
+                        <p class="text-[#1e1e1e]/90 font-medium">Quality Retention</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
 
     </main>
 
