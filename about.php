@@ -79,19 +79,19 @@
             </div>
         </section>
 
-        <!-- section :: about markfare  -->
-        <section id="about-markfare" class="py-20 bg-gradient-to-b from-white via-white/95 to-white">
-            <div class="max-w-6xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
+        <!-- section :: who we are  -->
+        <section id="who-we-are" class="mt-14 md:mt-16 bg-gradient-to-b from-white via-white/95 to-white">
+            <div class="max-w-6xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center gap-12">
 
                 <!-- Image -->
-                <div class="md:w-1/2">
+                <div class="lg:w-1/2">
                     <img src="./assets/farming.jpg"
                         alt="Markfare Cold Storage & Seed Processing"
                         class="rounded-xl shadow-2xl object-cover w-full h-[350px] md:h-[450px] transition-transform duration-300 hover:scale-105">
                 </div>
 
                 <!-- Content -->
-                <div class="md:w-1/2 flex flex-col justify-center">
+                <div class="lg:w-1/2 flex flex-col justify-center">
 
                     <!-- Section Label -->
                     <p class="text-[#054f73] uppercase tracking-[0.2em] text-xs md:text-sm font-semibold mb-3">
@@ -104,7 +104,7 @@
                     </h2>
 
                     <!-- Highlight Block -->
-                    <div class="flex flex-wrap gap-3 mb-6 justify-center md:justify-start">
+                    <div class="hidden md:flex flex-wrap gap-3 mb-6 justify-start">
                         <span class="px-3 py-1 rounded-md bg-[#551a8b]/10 text-[#551a8b] font-semibold text-sm">Cold Storage</span>
                         <span class="px-3 py-1 rounded-md bg-[#054f73]/10 text-[#054f73] font-semibold text-sm">Seed Processing</span>
                         <span class="px-3 py-1 rounded-md bg-[#551a8b]/10 text-[#551a8b] font-semibold text-sm">Tissue Culture</span>
