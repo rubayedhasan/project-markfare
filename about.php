@@ -126,7 +126,7 @@
         </section>
 
         <!-- section :: Vision & Mission -->
-        <section class="py-24 px-6 bg-gradient-to-b from-white via-white/95 to-white">
+        <section class="mt-10 md:mt-14 bg-gradient-to-b from-white via-white/95 to-white">
             <div class="max-w-6xl mx-auto">
 
                 <!-- Section Title -->
@@ -138,7 +138,7 @@
                 </div>
 
                 <!-- Vision & Mission Grid -->
-                <div class="grid md:grid-cols-2 gap-12">
+                <div class="grid lg:grid-cols-2 gap-12">
 
                     <!-- Vision Card -->
                     <div class="bg-white border-l-4 border-[#551a8b] p-8 rounded-xl shadow-lg hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
