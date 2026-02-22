@@ -24,7 +24,7 @@
     <?php include("./header.php") ?>
 
     <main class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
-        <!-- ABOUT HERO SECTION -->
+        <!-- section:: about us intro -->
         <section id="about-intro" class="relative py-10 lg:py-0 lg:min-h-screen flex items-center justify-center overflow-hidden rounded-md">
 
             <!-- Background Image -->
@@ -34,7 +34,7 @@
                     class="w-full h-full object-cover">
             </div>
 
-            <!-- Improved Overlay -->
+            <!-- Overlay -->
             <div class="absolute inset-0 bg-gradient-to-b from-[#1e1e1e]/70 via-[#1e1e1e]/80 to-[#1e1e1e]/95"></div>
 
             <!-- Content -->
@@ -45,40 +45,20 @@
                     About Markfare
                 </p>
 
-                <!-- Subtitle with semi-transparent background -->
-                <div class="mb-6 px-3 py-1 rounded-md bg-white/10">
-                    <p class="text-[#54c1d4] uppercase tracking-[0.25em] text-xs md:text-sm font-semibold">
-                        Empowering Agriculture Through Scientific Storage & Innovation
-                    </p>
-                </div>
-
                 <!-- Title -->
                 <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-6">
                     <span class="font-extrabold tracking-tight text-white 
-                text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">
+                  text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">
                         Markfare Cold Storage
-                    </span>
-                    <br>
-                    <span class="block mt-3 font-medium text-white/90 text-lg md:text-2xl">
-                        A Project of Palli Mongal Karmosuchi (PMK)
                     </span>
                 </h1>
 
-                <!-- About Us Description -->
+                <!-- About Cold Storage Short Description -->
                 <div class="space-y-5 text-sm md:text-base leading-relaxed text-white/85 text-justify md:text-center max-w-3xl mx-auto">
                     <p>
-                        Markfare Cold Storage is a specialized agro-based infrastructure project
-                        operating under Palli Mongal Karmosuchi (PMK), a national-level development
-                        organization based in Zirabo, Ashulia, just 20 kilometers from Dhaka.
-                        Established in 1988, PMK has been committed to rural development and
-                        agricultural empowerment under the leadership of Ms. Kamrun Nahar.
-                    </p>
-
-                    <p>
-                        The project provides advanced cold storage, scientific seed processing,
-                        and tissue culture solutions for potato, potato seed, paddy, and paddy seed
-                        preservation — ensuring quality protection, reduced post-harvest loss,
-                        and long-term agricultural sustainability.
+                        Markfare Cold Storage provides advanced temperature-controlled storage for crops and seeds,
+                        ensuring quality preservation, reduced post-harvest loss, and sustainable agricultural growth.
+                        Our modern facilities support seed processing and tissue culture to help farmers maximize yield.
                     </p>
                 </div>
 
@@ -99,6 +79,97 @@
             </div>
         </section>
 
+        <!-- section :: about markfare  -->
+        <section id="about-markfare" class="py-20 bg-gradient-to-b from-white via-white/95 to-white">
+            <div class="max-w-6xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-12">
+
+                <!-- Image -->
+                <div class="md:w-1/2">
+                    <img src="./assets/farming.jpg"
+                        alt="Markfare Cold Storage & Seed Processing"
+                        class="rounded-xl shadow-2xl object-cover w-full h-[350px] md:h-[450px] transition-transform duration-300 hover:scale-105">
+                </div>
+
+                <!-- Content -->
+                <div class="md:w-1/2 flex flex-col justify-center">
+
+                    <!-- Section Label -->
+                    <p class="text-[#054f73] uppercase tracking-[0.2em] text-xs md:text-sm font-semibold mb-3">
+                        Who We Are
+                    </p>
+
+                    <!-- Title -->
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-5 leading-snug">
+                        Markfare: Driving Cold Storage & Seed Innovation
+                    </h2>
+
+                    <!-- Highlight Block -->
+                    <div class="flex flex-wrap gap-3 mb-6 justify-center md:justify-start">
+                        <span class="px-3 py-1 rounded-md bg-[#551a8b]/10 text-[#551a8b] font-semibold text-sm">Cold Storage</span>
+                        <span class="px-3 py-1 rounded-md bg-[#054f73]/10 text-[#054f73] font-semibold text-sm">Seed Processing</span>
+                        <span class="px-3 py-1 rounded-md bg-[#551a8b]/10 text-[#551a8b] font-semibold text-sm">Tissue Culture</span>
+                    </div>
+
+                    <!-- Description -->
+                    <p class="text-[#1e1e1e]/90 text-base md:text-lg leading-relaxed mb-4 text-justify md:text-left">
+                        Markfare Cold Storage, a project of <span class="font-semibold">Palli Mongal Karmosuchi (PMK)</span>,
+                        provides advanced storage and seed processing solutions to protect crops and seeds, ensuring quality and sustainability.
+                        With expertise in cold storage, tissue culture, and seed preservation, we support farmers and agro-entrepreneurs in maximizing yield and reducing post-harvest loss.
+                    </p>
+
+                    <p class="text-[#1e1e1e]/90 text-base md:text-lg leading-relaxed text-justify md:text-left">
+                        Our mission is to integrate scientific innovation with sustainable agricultural practices. Markfare empowers communities by safeguarding potato, potato seed, paddy, and paddy seed, contributing to long-term agricultural growth and food security.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- VISION & MISSION SECTION -->
+        <section class="py-20 px-6 bg-white">
+            <div class="max-w-6xl mx-auto">
+
+                <!-- Section Title -->
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#551a8b] mb-4">
+                        Our Vision & Mission
+                    </h2>
+                    <div class="w-24 h-1 bg-[#054f73] mx-auto"></div>
+                </div>
+
+                <!-- Vision & Mission Grid -->
+                <div class="grid md:grid-cols-2 gap-10">
+
+                    <!-- Vision Card -->
+                    <div class="bg-[#f9f9f9] p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <h3 class="text-2xl font-semibold text-[#551a8b] mb-4">
+                            Building a Sustainable Future for Agriculture
+                        </h3>
+                        <p class="text-[#1e1e1e] leading-relaxed">
+                            Our vision is to become a trusted leader in scientific cold storage,
+                            seed preservation, and agricultural biotechnology. We aim to reduce
+                            post-harvest losses, strengthen rural economies, and promote
+                            sustainable agricultural growth through innovation and integrity.
+                        </p>
+                    </div>
+
+                    <!-- Mission Card -->
+                    <div class="bg-[#f9f9f9] p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                        <h3 class="text-2xl font-semibold text-[#551a8b] mb-4">
+                            Preserving Quality. Supporting Farmers. Advancing Innovation.
+                        </h3>
+                        <p class="text-[#1e1e1e] leading-relaxed">
+                            Our mission is to provide reliable cold storage, efficient seed
+                            processing, and advanced tissue culture solutions. Through modern
+                            infrastructure and professional management, we protect agricultural
+                            investments and contribute to national food security.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
 
     </main>
