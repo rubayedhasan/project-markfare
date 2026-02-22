@@ -125,45 +125,57 @@
             </div>
         </section>
 
-
-        <!-- VISION & MISSION SECTION -->
-        <section class="py-20 px-6 bg-white">
+        <!-- section :: Vision & Mission -->
+        <section class="py-24 px-6 bg-gradient-to-b from-white via-white/95 to-white">
             <div class="max-w-6xl mx-auto">
 
                 <!-- Section Title -->
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-[#551a8b] mb-4">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-4">
                         Our Vision & Mission
                     </h2>
-                    <div class="w-24 h-1 bg-[#054f73] mx-auto"></div>
+                    <div class="w-24 h-1 bg-[#054f73] mx-auto rounded-full"></div>
                 </div>
 
                 <!-- Vision & Mission Grid -->
-                <div class="grid md:grid-cols-2 gap-10">
+                <div class="grid md:grid-cols-2 gap-12">
 
                     <!-- Vision Card -->
-                    <div class="bg-[#f9f9f9] p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
-                        <h3 class="text-2xl font-semibold text-[#551a8b] mb-4">
-                            Building a Sustainable Future for Agriculture
-                        </h3>
-                        <p class="text-[#1e1e1e] leading-relaxed">
-                            Our vision is to become a trusted leader in scientific cold storage,
-                            seed preservation, and agricultural biotechnology. We aim to reduce
-                            post-harvest losses, strengthen rural economies, and promote
-                            sustainable agricultural growth through innovation and integrity.
+                    <div class="bg-white border-l-4 border-[#551a8b] p-8 rounded-xl shadow-lg hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
+                        <div class="flex items-center mb-4 gap-3">
+
+                            <!-- Vision Icon -->
+                            <figure class="h-10 w-10">
+                                <img src="./assets/bar-chart.png" alt="vision" class="w-full h-full">
+                            </figure>
+                            <h3 class="text-2xl font-semibold text-[#551a8b]">
+                                Our Vision
+                            </h3>
+                        </div>
+                        <p class="text-[#1e1e1e] leading-relaxed text-justify md:text-left">
+                            To become a trusted agri-infrastructure partner that enhances farmer income,
+                            ensures national food security, and promotes sustainable agriculture through
+                            advanced cold storage, seed preservation, and tissue culture technologies.
                         </p>
                     </div>
 
                     <!-- Mission Card -->
-                    <div class="bg-[#f9f9f9] p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
-                        <h3 class="text-2xl font-semibold text-[#551a8b] mb-4">
-                            Preserving Quality. Supporting Farmers. Advancing Innovation.
-                        </h3>
-                        <p class="text-[#1e1e1e] leading-relaxed">
-                            Our mission is to provide reliable cold storage, efficient seed
-                            processing, and advanced tissue culture solutions. Through modern
-                            infrastructure and professional management, we protect agricultural
-                            investments and contribute to national food security.
+                    <div class="bg-white border-l-4 border-[#054f73] p-8 rounded-xl shadow-lg hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1">
+                        <div class="flex items-center mb-4 gap-3">
+
+                            <!-- Vision Icon -->
+                            <figure class="h-10 w-10">
+                                <img src="./assets/target.png" alt="mission" class="w-full h-full">
+                            </figure>
+                            <h3 class="text-2xl font-semibold text-[#054f73]">
+                                Our Mission
+                            </h3>
+                        </div>
+                        <p class="text-[#1e1e1e] leading-relaxed text-justify md:text-left">
+                            To reduce post-harvest losses and improve seed quality by providing reliable
+                            cold storage, scientific seed processing, and tissue culture solutions.
+                            Markfare empowers farmers, agro-entrepreneurs, and communities with innovative
+                            infrastructure and sustainable practices.
                         </p>
                     </div>
 
