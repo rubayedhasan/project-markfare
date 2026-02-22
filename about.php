@@ -17,6 +17,9 @@
 
     <!-- stylesheet link  -->
     <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- js link  -->
+    <script defer src="./js/counter.js"></script>
 </head>
 
 <body>
@@ -94,12 +97,12 @@
                 <div class="lg:w-1/2 flex flex-col justify-center">
 
                     <!-- Section Label -->
-                    <p class="text-[#054f73] uppercase tracking-[0.2em] text-xs md:text-sm font-semibold mb-3">
+                    <p class="text-[#551a8b] uppercase tracking-[0.2em] text-xs md:text-sm font-semibold mb-3">
                         Who We Are
                     </p>
 
                     <!-- Title -->
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-5 leading-snug">
+                    <h2 class="text-3xl md:text-4xl font-extrabold  mb-5 leading-snug">
                         Markfare: Driving Cold Storage & Seed Innovation
                     </h2>
 
@@ -131,10 +134,10 @@
 
                 <!-- Section Title -->
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-4">
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
                         Our Vision & Mission
                     </h2>
-                    <div class="w-24 h-1 bg-[#054f73] mx-auto rounded-full"></div>
+                    <div class="w-24 h-1 bg-[#551a8b] mx-auto rounded-full"></div>
                 </div>
 
                 <!-- Vision & Mission Grid -->
@@ -184,15 +187,15 @@
         </section>
 
         <!-- section:: our-impact -->
-        <section id="our-impact" class="py-20 bg-white">
+        <section id="our-impact" class="mt-10 md:mt-14 bg-white">
             <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
 
                 <!-- Section Title -->
                 <div class="mb-12">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-4">
-                        Our Impact
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-4">
+                        Our Achievements
                     </h2>
-                    <div class="w-24 h-1 bg-[#054f73] mx-auto rounded-full"></div>
+                    <div class="w-24 h-1 bg-[#551a8b] mx-auto rounded-full"></div>
                 </div>
 
                 <!-- Impact Grid -->
@@ -204,7 +207,7 @@
                             <i class="fa-solid fa-warehouse"></i>
                         </div>
                         <p class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-2">
-                            <span class="count-number" data-count-target="50">0</span>+
+                            <span class="count-number" data-countTarget="7500">0</span>+
                         </p>
                         <p class="text-[#1e1e1e]/90 font-medium">Tons Potato Storage</p>
                     </div>
@@ -215,7 +218,7 @@
                             <i class="fa-solid fa-seedling"></i>
                         </div>
                         <p class="text-3xl md:text-4xl font-extrabold text-[#054f73] mb-2">
-                            <span class="count-number" data-count-target="40">0</span>+
+                            <span class="count-number" data-countTarget="7500">0</span>+
                         </p>
                         <p class="text-[#1e1e1e]/90 font-medium">Tons Paddy Storage</p>
                     </div>
@@ -226,7 +229,7 @@
                             <i class="fa-solid fa-cogs"></i>
                         </div>
                         <p class="text-3xl md:text-4xl font-extrabold text-[#551a8b] mb-2">
-                            <span class="count-number" data-count-target="500">0</span>+
+                            <span class="count-number" data-countTarget="1000">0</span>+
                         </p>
                         <p class="text-[#1e1e1e]/90 font-medium">Seeds Processed</p>
                     </div>
@@ -237,7 +240,7 @@
                             <i class="fa-solid fa-flask"></i>
                         </div>
                         <p class="text-3xl md:text-4xl font-extrabold text-[#054f73] mb-2">
-                            <span class="count-number" data-count-target="95">0</span>%
+                            <span class="count-number" data-countTarget="82">0</span>%
                         </p>
                         <p class="text-[#1e1e1e]/90 font-medium">Quality Retention</p>
                     </div>
