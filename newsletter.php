@@ -26,7 +26,7 @@
     <!-- section:: main  -->
     <main class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
         <!-- newsletter / contact section -->
-        <?php include("./storage_services_form.php") ?>
+        <?php include("./storage_service_form.php") ?>
     </main>
 
     <!-- section:: footer  -->

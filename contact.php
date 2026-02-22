@@ -121,7 +121,7 @@
             </div>
 
             <!-- newsletter / contact section -->
-            <?php include("./storage_services_form.php") ?>
+            <?php include("./storage_service_form.php") ?>
         </section>
 
         <!-- section:: map display -->

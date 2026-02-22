@@ -24,226 +24,83 @@
     <?php include("./header.php") ?>
 
     <main class="w-4/5 mx-auto my-10 md:my-14 rounded-md">
-        <!-- section:: gallery  -->
-        <section id="gallery" class="mt-10 md:mt-14">
-            <!-- section description container  -->
-            <div class="max-w-5xl mx-auto text-center space-y-4">
-                <!-- section label  -->
-                <span class="section-label inline-block text-sm font-semibold tracking-wider text-[#551a8b] uppercase">Inside Makfare</span>
+        <!-- ABOUT HERO SECTION -->
+        <section id="about-intro" class="relative py-10 lg:py-0 lg:min-h-screen flex items-center justify-center overflow-hidden rounded-md">
 
-                <!-- section title  -->
-                <h3 class="text-2xl md:text-3xl font-bold">Our Facilities, Fields & Freshness in Action</h3>
-
-                <!-- divider -->
-                <div class="mx-auto w-16 h-1 bg-gradient-to-r from-[#551a8b] to-[#054f73] rounded-full"></div>
-
-                <!-- section description  -->
-                <p class="section-description text-sm md:text-base font-medium text-opacity-90 leading-relaxed text-justify md:text-center lg:w-3/4 mx-auto">
-                    A visual journey through Makfare’s cold storage facilities, agricultural goods, seed preservation, and processing operations—showcasing our commitment to quality, freshness, and sustainable agricultural solutions.
-                </p>
+            <!-- Background Image -->
+            <div class="absolute inset-0">
+                <img src="./assets/cold_storage/cold_storage_warehouse.jpg"
+                    alt="Markfare Cold Storage Facility"
+                    class="w-full h-full object-cover">
             </div>
 
-            <!-- gallery  -->
-            <div class="tabs tabs-border border-[#551a8b] justify-center mt-6">
-                <!-- Cold Storage Tab Gallery  -->
-                <input type="radio" name="my_tabs_2" class="tab text-sm font-semibold text-opacity-90" aria-label="Cold Storage" checked />
-                <div class="tab-content bg-base-100 pt-8 lg:pt-10">
-                    <!-- Photos Grid  -->
-                    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Improved Overlay -->
+            <div class="absolute inset-0 bg-gradient-to-b from-[#1e1e1e]/70 via-[#1e1e1e]/80 to-[#1e1e1e]/95"></div>
 
-                        <!-- 1st: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+            <!-- Content -->
+            <div class="relative z-10 max-w-5xl px-6 md:px-12 text-center text-white">
 
-                            <!-- Image -->
-                            <img src="./assets/cold_storage/cold_storage_wideview.jpg"
-                                alt="Cold Storage"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
+                <!-- About Label -->
+                <p class="text-white/70 uppercase tracking-widest text-xs md:text-sm font-medium mb-3">
+                    About Markfare
+                </p>
 
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Cold Storage
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 2nd: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-
-                            <!-- Image -->
-                            <img src="./assets/cold_storage/cold_storage_warehouse.jpg"
-                                alt="Cold Storage"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Cold Storage
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 3rd: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-
-                            <!-- Image -->
-                            <img src="./assets/cold_storage/farmer_with_potato.avif"
-                                alt="Cold Storage"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Cold Storage
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 4th: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-
-                            <!-- Image -->
-                            <img src="./assets/cold_storage/cold-room_foods.jpg"
-                                alt="Cold Storage"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Cold Storage
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 5th: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-
-                            <!-- Image -->
-                            <img src="./assets/cold_storage/bages_of_goods.jpg"
-                                alt="Cold Storage"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Cold Storage
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 6th: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-
-                            <!-- Image -->
-                            <img src="./assets/cold_storage/stock_of_bags.jpeg"
-                                alt="Cold Storage"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Cold Storage
-                                </p>
-                            </figcaption>
-                        </figure>
-                    </div>
+                <!-- Subtitle with semi-transparent background -->
+                <div class="mb-6 px-3 py-1 rounded-md bg-white/10">
+                    <p class="text-[#54c1d4] uppercase tracking-[0.25em] text-xs md:text-sm font-semibold">
+                        Empowering Agriculture Through Scientific Storage & Innovation
+                    </p>
                 </div>
 
-                <!-- Tissue Culture Tab Gallery  -->
-                <input type="radio" name="my_tabs_2" class="tab text-sm font-semibold text-opacity-90" aria-label="Tissue Culture" />
-                <div class="tab-content bg-base-100 pt-8 lg:pt-10">
-                    <!-- Photos Grid  -->
-                    <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Title -->
+                <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-6">
+                    <span class="font-extrabold tracking-tight text-white 
+                text-shadow-[2px_0_0_#551a8b,-2px_0_0_#551a8b,0_2px_0_#551a8b,0_-2px_0_#551a8b]">
+                        Markfare Cold Storage
+                    </span>
+                    <br>
+                    <span class="block mt-3 font-medium text-white/90 text-lg md:text-2xl">
+                        A Project of Palli Mongal Karmosuchi (PMK)
+                    </span>
+                </h1>
 
-                        <!-- 1st: Photo Item -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
+                <!-- About Us Description -->
+                <div class="space-y-5 text-sm md:text-base leading-relaxed text-white/85 text-justify md:text-center max-w-3xl mx-auto">
+                    <p>
+                        Markfare Cold Storage is a specialized agro-based infrastructure project
+                        operating under Palli Mongal Karmosuchi (PMK), a national-level development
+                        organization based in Zirabo, Ashulia, just 20 kilometers from Dhaka.
+                        Established in 1988, PMK has been committed to rural development and
+                        agricultural empowerment under the leadership of Ms. Kamrun Nahar.
+                    </p>
 
-                            <!-- Image -->
-                            <img src="./assets/tissue_culture/1.png"
-                                alt="Lab"
-                                class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 via-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-6">
-
-                                <p class="text-white font-semibold tracking-wide text-sm">
-                                    Tissue Culture Lab
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 2nd: Photo Item  -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                            <!-- Image  -->
-                            <img src="./assets/tissue_culture/2.png" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay  -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
-                                <p class="text-white font-semibold tracking-tighter text-sm">Tissue Culture Lab</p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 3rd: Photo Item  -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                            <!-- Image  -->
-                            <img src="./assets/tissue_culture/3.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay  -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
-                                <p class="text-white font-semibold tracking-tighter text-sm">
-                                    Tissue Culture Lab
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 4th: Photo Item  -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                            <!-- Image  -->
-                            <img src="./assets/tissue_culture/6.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay  -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
-                                <p class="text-white font-semibold tracking-tighter text-sm">
-                                    Tissue Culture Lab
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 5th:Photo Item  -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                            <!-- Image  -->
-                            <img src="./assets/tissue_culture/9.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay  -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
-                                <p class="text-white font-semibold tracking-tighter text-sm">
-                                    Tissue Culture Lab
-                                </p>
-                            </figcaption>
-                        </figure>
-
-                        <!-- 6th:Photo Item  -->
-                        <figure class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer">
-                            <!-- Image  -->
-                            <img src="./assets/tissue_culture/10.jpg" alt="lab" class="w-full h-64 object-cover transition-transform duration-700 group-hover:scale-110">
-
-                            <!-- Overlay  -->
-                            <figcaption class="absolute inset-0 bg-gradient-to-t from-[#1e1e1e]/70 vai-[#1e1e1e]/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex justify-center items-end pb-6">
-                                <p class="text-white font-semibold tracking-tighter text-sm">
-                                    Tissue Culture Lab
-                                </p>
-                            </figcaption>
-                        </figure>
-                    </div>
+                    <p>
+                        The project provides advanced cold storage, scientific seed processing,
+                        and tissue culture solutions for potato, potato seed, paddy, and paddy seed
+                        preservation — ensuring quality protection, reduced post-harvest loss,
+                        and long-term agricultural sustainability.
+                    </p>
                 </div>
+
+                <!-- CTA Button -->
+                <div class="mt-10">
+                    <a href="./services.php"
+                        class="inline-flex items-center justify-center px-10 py-3 text-sm md:text-base font-semibold 
+                      bg-[#551a8b] hover:bg-[#054f73] 
+                      rounded-md 
+                      transition-all duration-300 
+                      shadow-[0_8px_25px_rgba(85,26,139,0.35)] 
+                      hover:shadow-[0_10px_30px_rgba(85,26,139,0.45)] 
+                      hover:-translate-y-[2px]">
+                        Explore Our Services
+                    </a>
+                </div>
+
             </div>
         </section>
+
+
+
     </main>
 
     <!-- section:: footer  -->
